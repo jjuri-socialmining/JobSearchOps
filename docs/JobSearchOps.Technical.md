@@ -2,13 +2,13 @@
 type: "technical_dashboard"
 project: "JobSearchOps"
 project_type: "X.Ops"
-repo_status: "not_initialized"
+repo_status: "active"
 current_phase: "Foundation"
-overall_status: "🔴 NOT STARTED"
+overall_status: "🟡 PARTIAL"
 last_validation: "2026-04-24"
 owner: "Jorge"
 focus_module: "JobSearchOps"
-github_repo: ""
+github_repo: "https://github.com/jjuri-socialmining/JobSearchOps.git"
 local_path: "/Volumes/Storage/PKM/JobOps-OS/JobSearchOps"
 vscode_link: "vscode://file/Volumes/Storage/PKM/JobOps-OS/JobSearchOps"
 obsidian_moc: "[[JobSearchOps.MOC]]"
@@ -19,17 +19,17 @@ maturity_level: "foundation"
 automation_level: "manual"
 source_of_truth: "local_repo"
 generated_by: "xops-control-center"
-generated_at: "2026-04-24 01:20"
+generated_at: "2026-04-24 04:09"
 generator_script: "../../Automation/automation/dashboard/xops-control-center.mjs"
-git_branch: "-"
-git_remote: "-"
-last_commit: "-"
+git_branch: "main"
+git_remote: "https://github.com/jjuri-socialmining/JobSearchOps.git"
+last_commit: "cc65bc1 chore: finalize governed bootstrap baseline"
 working_tree: "dirty"
 latest_tag: "-"
-ci_status: "🔴 NOT STARTED"
+ci_status: "🟢 ACTIVE"
 workflow_count: 0
 required_workflows_missing: []
-env_example_status: "🔴 NOT STARTED"
+env_example_status: "🟢 ACTIVE"
 changelog_status: "🟡 PARTIAL"
 secrets_status: "no_env_tracked"
 security_status: "🟢 ACTIVE"
@@ -41,9 +41,9 @@ package_manager: ""
 
 | Area | Status | Evidence | Next Action |
 |---|---|---|---|
-| Git Foundation | 🔴 NOT STARTED | branch=-, remote=- | Run git init |
-| Repo Hygiene | 🟡 PARTIAL | missing=README.md, AGENTS.md, .gitignore, .env.example | Create the missing root files |
-| CI/CD Base | 🔴 NOT STARTED | workflow_count=0 | Add required workflows |
-| Env Contract | 🔴 NOT STARTED | .env.example=false | Add env keys |
+| Git Foundation | 🟢 ACTIVE | branch=main, remote=https://github.com/jjuri-socialmining/JobSearchOps.git | - |
+| Repo Hygiene | 🟢 ACTIVE | missing=none | - |
+| CI/CD Base | 🟢 ACTIVE | workflow_count=0 | Add required workflows |
+| Env Contract | 🟢 ACTIVE | .env.example=true | Add env keys |
 | Secrets Policy | 🟢 ACTIVE | .env tracked=false | Ensure .env is ignored |
-| Release Discipline | 🟡 PARTIAL | CHANGELOG=true, tags=0, semver_tags=0, unreleased=true, rollback=false | Keep CHANGELOG + tags + rollback guidance in sync |
+| Release Discipline | 🟡 PARTIAL | CHANGELOG=true, tags=0, semver_tags=0, unreleased=true, rollback=false | Document rollback guidance in CHANGELOG.md. |

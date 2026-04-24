@@ -31,7 +31,11 @@ This prompt belongs to the X.Ops Automation system. It is used to create or vali
 
 ## Bootstrap Findings
 
-- Review the bootstrap script before execution.
+- Creates local and remote repositories.
+- Creates the first commit.
+- Pushes the main branch.
+- Generates FIRST_COMMIT_GITHUB_INIT_CHECKLIST.md.
+- Delegates to _gitops/scripts/new-governed-project.sh.
 
 ## Prerequisites
 
