@@ -38,6 +38,13 @@ generator_script: "../../Automation/automation/dashboard/xops-control-center.mjs
 | Operational  | 🔴 NOT STARTED | Risks, blockers, and next actions          | [[JobSearchOps.Operational]] | Iniciar decision log, riesgos y evidencia operacional.   |
 | JobSearchOps | 🔴 NOT STARTED | Current focus module health                | [[JobSearchOps.Dashboard]]   | Iniciar modules/JobSearchOps.                            |
 
+```button
+name Update Control Center
+type link
+action file:///Volumes/Storage/PKM/JobOps-OS/JobSearchOps/_automation/dashboard/update-control-center.command
+color blue
+```
+
 ## Update
 
 Use este boton en Obsidian para lanzar el refresh de diagnostico del repo desde macOS:

@@ -35,7 +35,7 @@ npm_status: "10.9.4"
 | Tool          | Status         | Purpose                                             | Evidence                                               | Codex Prompt                                                                             | Bash Script                                                                                  | Next Action                                               |
 | ------------- | -------------- | --------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | GitHub        | 🟢 ACTIVE      | Repo, governance, branch strategy, CI/CD foundation | https://github.com/jjuri-socialmining/JobSearchOps.git | [GitHub.Prompt.Codex.md](../automation/prompts/tools/GitHub.Prompt.Codex.md)             | [`new-governed-project.sh`](../_gitops/automation/project-bootstrap/new-governed-project.sh) | Usar el bootstrap gobernado y validar remote + workflows. |
-| VS Code       | 🟢 ACTIVE      | IDE principal para implementación local             | vscode:// links generated                              | [VSCode.Prompt.Codex.md](../automation/prompts/tools/VSCode.Prompt.Codex.md)             | -                                                                                            | Documentar extensiones y ajustes opcionales.              |
+| VS Code       | 🟢 ACTIVE      | IDE principal para implementación local             | [vscode](vscode://file/Volumes/Storage/PKM/JobOps-OS/JobSearchOps) | [VSCode.Prompt.Codex.md](../automation/prompts/tools/VSCode.Prompt.Codex.md)             | -                                                                                            | Documentar extensiones y ajustes opcionales.              |
 | Codex         | 🟢 ACTIVE      | Implementación guiada por prompts versionados       | automation/prompts exists                              | [Codex.Prompt.Codex.md](../automation/prompts/tools/Codex.Prompt.Codex.md)               | -                                                                                            | Mantener prompts atomicos y versionados.                  |
 | Obsidian      | 🟢 ACTIVE      | Control Center, dashboards y PKM operacional        | docs/ exists                                           | [Obsidian.Prompt.Codex.md](../automation/prompts/tools/Obsidian.Prompt.Codex.md)         | -                                                                                            | Mantener dashboards y MOCs auditables.                    |
 | Node.js       | 🔴 NOT STARTED | Scripts de automatización, dashboard y validación   | v20.20.0                                               | [Node.Prompt.Codex.md](../automation/prompts/tools/Node.Prompt.Codex.md)                 | -                                                                                            | Crear package.json.                                       |
@@ -43,3 +43,20 @@ npm_status: "10.9.4"
 | Todoist       | 🔴 NOT STARTED | TaskOps y ejecución humana controlada               | missing TODOIST_API_TOKEN                              | [Todoist.Prompt.Codex.md](../automation/prompts/tools/Todoist.Prompt.Codex.md)           | -                                                                                            | Documentar reglas anti-duplicado y seguimiento.           |
 | n8n           | 🔴 NOT STARTED | FlowOps, orquestación, cron, webhooks               | n8n/ missing                                           | [n8n.Prompt.Codex.md](../automation/prompts/tools/n8n.Prompt.Codex.md)                   | -                                                                                            | Definir export policy, retry y webhooks.                  |
 | Google Sheets | 🔴 NOT STARTED | StateOps / state store operacional                  | missing GOOGLE_SHEETS_ID                               | [GoogleSheets.Prompt.Codex.md](../automation/prompts/tools/GoogleSheets.Prompt.Codex.md) | -                                                                                            | Definir schema de estado y tabs.                          |
+
+## Update
+
+Use este boton en Obsidian para refrescar el dashboard de tools y regenerar la evidencia actualizada del proyecto:
+
+```button
+name Update Tools Status
+type link
+action file:///Volumes/Storage/PKM/JobOps-OS/JobSearchOps/_automation/dashboard/update-control-center.command
+color blue
+```
+
+Fallback shell directo:
+
+```bash
+bash _automation/dashboard/update-control-center.sh
+```
