@@ -1,0 +1,3 @@
+No he podido consultar directamente las ofertas de trabajo en el sitio indicado sin iniciar sesión ni ejecutar JavaScript. Hasta donde puedo ver, no hay datos visibles públicamente sobre los roles con “Manager” publicados en los últimos 7 días. El contenido está protegido tras login ([bcpublicservice.hua.hrsmart.com](https://bcpublicservice.hua.hrsmart.com/hr/ats/JobSearch/index)).
+
+¿Quieres que intente otro enfoque como usar una cuenta si la tienes, o realizar capturas vía navegador externo, o sospechas que hay enlaces compartidos sin login?

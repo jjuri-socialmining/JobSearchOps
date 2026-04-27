@@ -1,0 +1,27 @@
+{
+  "columns": [
+    "Version",
+    "Schema Version",
+    "Alias",
+    "Date",
+    "Posted",
+    "Industry",
+    "N Applicants",
+    "Ranking",
+    "Prioridad",
+    "Veredicto",
+    "Organizaci\u00f3n",
+    "T\u00edtulo",
+    "Ubicaci\u00f3n / Modalidad",
+    "Compensaci\u00f3n",
+    "Por qu\u00e9 mirar esto primero",
+    "Qu\u00e9 te falta validar antes de invertir tiempo",
+    "Link"
+  ],
+  "rows": [],
+  "count": 0,
+  "batch_name": "buscar_trabajo_general_bc",
+  "prompt_file": "/Volumes/Storage/PKM/JobOps-OS/JobSearchOps/prompts/jobops/2026-03-26 - job-offers-scout-simple-bc.prompt.md",
+  "raw_output_file": "/Volumes/Storage/PKM/JobOps-OS/JobSearchOps/tmp/jobsearchops-runs/buscar_trabajo_general_bc/20260424T181811/raw-bc_gov.txt",
+  "exported_at": "2026-04-25T01:18:20.286655+00:00"
+}

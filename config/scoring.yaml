@@ -1,0 +1,33 @@
+version: 1
+hard_filters:
+  minimum_salary_cad: 70000
+  allowed_regions:
+    - "British Columbia"
+    - "Canada Remote"
+  preferred_locations:
+    - "Vancouver"
+    - "Surrey"
+    - "New Westminster"
+    - "Burnaby"
+    - "Richmond"
+    - "Victoria"
+    - "Multiple Locations"
+    - "Remote"
+    - "Hybrid"
+  preferred_work_options:
+    - "Hybrid"
+    - "Remote"
+    - "Flexible"
+  exclude_internships: true
+  exclude_volunteer: true
+  require_direct_apply_url: true
+weighted_criteria:
+  title_match: 30
+  location_fit: 20
+  compensation_signal: 10
+  source_quality: 15
+  seniority_fit: 15
+  clarity_of_scope: 10
+thresholds:
+  apply: 75
+  clarify: 55

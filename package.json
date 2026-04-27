@@ -1,0 +1,15 @@
+{
+  "name": "jobsearchops",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "jobops:capture": "node scripts/jobops-run-capture.mjs",
+    "jobops:enrich": "node scripts/jobops-run-enrich.mjs",
+    "jobops:score": "node scripts/jobops-run-score.mjs",
+    "jobops:full": "node scripts/jobops-run-full-pipeline.mjs",
+    "jobops:test:level1": "node scripts/jobops-run-capture.mjs --source bc-gov && node scripts/jobops-run-score.mjs && node scripts/jobops-export-level1-report.mjs",
+    "jobops:all-sites": "bash scripts/jobops-run-all-sources.sh",
+    "jobops:sync-prompt-sources": "node scripts/jobops-sync-prompt-sources.mjs"
+  }
+}

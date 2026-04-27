@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-04-26T22:37:58.144Z",
+  "prompt_file": "prompts/jobops/2026-03-26 - job-offers-scout-simple-bc.prompt.md",
+  "groups": [
+    {
+      "label": "Job Boards",
+      "urls": [
+        {
+          "url": "https://ca.indeed.com",
+          "present_in_node_runtime": true
+        }
+      ]
+    }
+  ]
+}

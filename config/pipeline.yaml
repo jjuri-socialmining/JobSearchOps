@@ -1,0 +1,24 @@
+version: 1
+capture:
+  sources_config: "config/sources.yaml"
+  output_file: "tmp/jobops-pipeline/latest-capture.json"
+  enabled_sources_only: true
+enrich:
+  mode: "heuristic"
+  ai_optional: true
+  output_file: "tmp/jobops-pipeline/latest-enriched.json"
+score:
+  scoring_config: "config/scoring.yaml"
+  output_file: "tmp/jobops-pipeline/latest-scored.json"
+store:
+  sheets:
+    enabled: false
+    output_file: "tmp/jobops-pipeline/latest-sheets-payload.json"
+  obsidian:
+    enabled: true
+    output_file: "tmp/jobops-pipeline/latest-jobs.md"
+decision:
+  allowed_statuses:
+    - "APLICAR"
+    - "SOLO SI ACLARAN X"
+    - "DESCARTAR"

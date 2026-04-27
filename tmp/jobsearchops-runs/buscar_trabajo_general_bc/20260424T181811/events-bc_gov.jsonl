@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"019dc237-3b5c-7493-99b9-1921ebe876c9"}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_0","type":"web_search","id":"ws_09251190cffd5f4d0169ec1658e7f4819099e3d49c70c8692a","query":"","action":{"type":"search"}}}
+{"type":"item.completed","item":{"id":"item_0","type":"web_search","id":"ws_09251190cffd5f4d0169ec1658e7f4819099e3d49c70c8692a","query":"site:bcpublicservice.hua.hrsmart.com job openings Operations Manager Project Manager Contracts Manager British Columbia remote hybrid","action":{"type":"search","query":"site:bcpublicservice.hua.hrsmart.com job openings Operations Manager Project Manager Contracts Manager British Columbia remote hybrid","queries":["site:bcpublicservice.hua.hrsmart.com job openings Operations Manager Project Manager Contracts Manager British Columbia remote hybrid"]}}}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"[]"}}
+{"type":"turn.completed","usage":{"input_tokens":24550,"cached_input_tokens":0,"output_tokens":53}}

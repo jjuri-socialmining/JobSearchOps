@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"019dc241-13cc-7bc1-9419-810fac4789b0"}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_0","type":"web_search","id":"ws_02c8c42267bbfb0d0169ec18deae388193a6b36a401e3719d3","query":"","action":{"type":"search"}}}
+{"type":"item.completed","item":{"id":"item_0","type":"web_search","id":"ws_02c8c42267bbfb0d0169ec18deae388193a6b36a401e3719d3","query":"site:bcpublicservice.hua.hrsmart.com Operations Manager Project Manager Contracts Manager Commercial Manager Risk Manager Program Manager Business Operations Manager Vendor Manager Procurement Manager job posts British Columbia Canada","action":{"type":"search","query":"site:bcpublicservice.hua.hrsmart.com Operations Manager Project Manager Contracts Manager Commercial Manager Risk Manager Program Manager Business Operations Manager Vendor Manager Procurement Manager job posts British Columbia Canada","queries":["site:bcpublicservice.hua.hrsmart.com Operations Manager Project Manager Contracts Manager Commercial Manager Risk Manager Program Manager Business Operations Manager Vendor Manager Procurement Manager job posts British Columbia Canada"]}}}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"[]"}}
+{"type":"turn.completed","usage":{"input_tokens":24387,"cached_input_tokens":0,"output_tokens":63}}

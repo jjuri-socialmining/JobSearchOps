@@ -1,0 +1,134 @@
+version: 1
+defaults:
+  region: "British Columbia, Canada"
+  remote_policy: "canada-first"
+  enabled: true
+sources:
+  - id: "bc-gov"
+    name: "BC Government Careers"
+    adapter: "bc-gov"
+    type: "government"
+    enabled: true
+    priority: 100
+    summary_source: "bc_public_service"
+    method: "public-html"
+    page_url: "https://www2.gov.bc.ca/gov/content/careers-myhr/job-seekers/current-job-postings"
+    endpoint_url: ""
+    public_board_url: "https://bcgovinternaljobpostings.gov.bc.ca/"
+    keywords_profile: "level_1_keywords"
+    excluded_title_keywords_profile: "level_1_excluded_title_keywords"
+    excluded_exact_titles_profile: "level_1_excluded_exact_titles"
+    excluded_organizations_profile: "level_1_excluded_organizations"
+    excluded_post_keywords_profile: "level_1_excluded_post_keywords"
+    excluded_work_options_profile: "level_1_excluded_work_options"
+    notes: "External RMS search requires authentication for result retrieval. Level 1 capture uses the public BC job board and filters titles locally by keyword."
+  - id: "crown-corporations"
+    name: "BC Crown Corporations"
+    adapter: "generic-careers-page"
+    type: "crown-corporation"
+    enabled: false
+    priority: 90
+    method: "manual-registry"
+    page_url: "https://www.bchydro.com/toolbar/careers.html"
+    companies:
+      - "BC Hydro"
+      - "ICBC"
+      - "TransLink"
+      - "BC Housing"
+    notes: "Use this as a registry until each company has a dedicated adapter config."
+  - id: "indeed-bc"
+    name: "Indeed BC"
+    adapter: "indeed"
+    type: "job-board"
+    enabled: false
+    priority: 88
+    summary_source: "indeed_bc"
+    method: "rss-xml"
+    page_url: "https://ca.indeed.com"
+    endpoint_url: "https://ca.indeed.com/rss"
+    notes: "Indeed blocks all automated access (HTTP 403). Use adzuna-bc instead."
+
+  - id: "adzuna-bc"
+    name: "Adzuna BC (covers Indeed + more)"
+    adapter: "adzuna"
+    type: "job-board"
+    enabled: true
+    priority: 88
+    summary_source: "adzuna_bc"
+    method: "json-api"
+    page_url: "https://ca.indeed.com"
+    country: "ca"
+    location: "New Westminster, British Columbia"
+    radius_km: 80
+    search_query: "manager"
+    results_per_page: 50
+    max_pages: 3
+    keywords_profile: "level_1_keywords"
+    excluded_title_keywords_profile: "level_1_excluded_title_keywords"
+    excluded_exact_titles_profile: "level_1_excluded_exact_titles"
+    excluded_organizations_profile: "level_1_excluded_organizations"
+    excluded_post_keywords_profile: "level_1_excluded_post_keywords"
+    excluded_work_options_profile: "level_1_excluded_work_options"
+    notes: "Adzuna API covers Indeed, Glassdoor and other boards. Requires ADZUNA_APP_ID + ADZUNA_APP_KEY env vars. Register free at https://developer.adzuna.com"
+
+  - id: "civicjobs"
+    name: "CivicJobs.ca"
+    adapter: "civicjobs"
+    type: "municipal-jobs"
+    enabled: true
+    priority: 95
+    summary_source: "civicjobs_bc"
+    method: "rss-xml"
+    page_url: "https://www.civicjobs.ca/"
+    endpoint_url: "https://www.civicjobs.ca/rss/province.php?id=BC"
+    keywords_profile: "level_1_keywords"
+    excluded_title_keywords_profile: "level_1_excluded_title_keywords"
+    excluded_exact_titles_profile: "level_1_excluded_exact_titles"
+    excluded_organizations_profile: "level_1_excluded_organizations"
+    excluded_post_keywords_profile: "level_1_excluded_post_keywords"
+    excluded_work_options_profile: "level_1_excluded_work_options"
+    notes: "BC CivicJobs RSS feed. Keyword filtering is applied locally in the main Node pipeline."
+  - id: "greenhouse-boards"
+    name: "Greenhouse Boards"
+    adapter: "greenhouse"
+    type: "ats-api"
+    enabled: false
+    priority: 85
+    method: "greenhouse-api"
+    board_tokens: []
+    notes: "Add board tokens for companies worth tracking."
+  - id: "lever-boards"
+    name: "Lever Boards"
+    adapter: "lever"
+    type: "ats-api"
+    enabled: false
+    priority: 80
+    method: "lever-api"
+    sites: []
+    notes: "Add Lever site handles."
+  - id: "workday-public"
+    name: "Workday Public Endpoints"
+    adapter: "workday"
+    type: "ats-api"
+    enabled: false
+    priority: 75
+    method: "public-json"
+    endpoints: []
+    notes: "Each endpoint item can define endpoint_url, list_path and field_map."
+  - id: "company-careers"
+    name: "Company Career Pages"
+    adapter: "generic-careers-page"
+    type: "company-page"
+    enabled: false
+    priority: 70
+    method: "manual-or-json"
+    sources: []
+    notes: "Use for direct pages, lightweight JSON feeds or manual seed jobs."
+  - id: "linkedin-overlay"
+    name: "LinkedIn Overlay"
+    adapter: "generic-careers-page"
+    type: "overlay"
+    enabled: false
+    priority: 10
+    method: "manual-validation"
+    notes: "Optional only. Do not use as primary capture source."

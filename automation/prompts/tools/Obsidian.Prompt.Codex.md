@@ -10,7 +10,7 @@ Generate Obsidian-ready dashboards and MOCs for the X.Ops project.
 - [ ] Control Center exists
 - [ ] Tools dashboard exists
 - [ ] Workflows dashboard exists
-- [ ] Agents dashboard exists
+- [ ] Agentic AI dashboard exists
 - [ ] Technical dashboard exists
 - [ ] Operational dashboard exists
 

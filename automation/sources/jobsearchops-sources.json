@@ -1,0 +1,121 @@
+{
+  "version": "3",
+  "catalog_source": "/Volumes/Storage/PKM/Dev/PromptOps/prompts/_shared/jobops_official_sources_catalog.md",
+  "sources": [
+    {
+      "id": "bc_gov",
+      "label": "BC Gov",
+      "urls": [
+        "https://bcpublicservice.hua.hrsmart.com/hr/ats/JobSearch/index"
+      ],
+      "url_patterns": ["bcpublicservice.hua.hrsmart.com", "postings.gov.bc.ca"],
+      "priority": 1
+    },
+    {
+      "id": "canada_federal",
+      "label": "GC Jobs / Federal",
+      "urls": [
+        "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1710?toggleLanguage=en",
+        "https://www.jobbank.gc.ca/jobsearch/jobsearch?fcid=317&term=manager&page=1&sort=D&fprov=BC",
+        "https://www.civicjobs.ca/jobs?type=ss&stitle=manager&dateposted=7days"
+      ],
+      "url_patterns": ["emploisfp-psjobs.cfp-psc.gc.ca", "jobbank.gc.ca", "civicjobs.ca"],
+      "priority": 1
+    },
+    {
+      "id": "defence_security",
+      "label": "Defence & Security",
+      "urls": [
+        "https://www.canada.ca/en/department-national-defence/corporate/job-opportunities/civilian-jobs/civilian-job-opportunities.html",
+        "https://rcmp.ca/en/careers-rcmp/civilian-employee-careers",
+        "https://www.cbsa-asfc.gc.ca/job-emploi/menu-eng.html",
+        "https://international.canada.ca/en/global-affairs/corporate/jobs"
+      ],
+      "url_patterns": ["rcmp.ca/en/careers", "cbsa-asfc.gc.ca", "cse-cst.gc.ca", "international.canada.ca", "forces.ca/en/careers"],
+      "priority": 1
+    },
+    {
+      "id": "crown_bc",
+      "label": "Crown Corps BC",
+      "urls": [
+        "https://bchydro.wd3.myworkday.com/bchydro/d/inst/15$189525/189525$388.htmld",
+        "https://translink.wd3.myworkday.com/translink/d/inst/15$189525/189525$388.htmld",
+        "https://careers.icbc.com/",
+        "https://www.bcferries.com/about/careers",
+        "https://www.worksafebc.com/en/about-worksafebc/careers",
+        "https://corporate.bclc.com/careers.html",
+        "https://phsa.wd3.myworkday.com/phsa/d/inst/15$189525/189525$388.htmld",
+        "https://fraserhealth.wd5.myworkday.com/fraserhealth/d/inst/15$189525/189525$388.htmld"
+      ],
+      "url_patterns": ["bchydro.wd3.myworkday.com", "translink.wd3.myworkday.com", "careers.icbc.com", "bcferries.com/about/careers", "worksafebc.com/en/about-worksafebc", "bclc.com/careers", "phsa.wd3.myworkday.com", "fraserhealth.wd5.myworkday.com"],
+      "priority": 2
+    },
+    {
+      "id": "greenhouse",
+      "label": "Greenhouse",
+      "urls": ["https://boards.greenhouse.io/"],
+      "search_hints": ["site:boards.greenhouse.io \"Operations Manager\" BC Canada"],
+      "url_patterns": ["boards.greenhouse.io", "job.greenhouse.io"],
+      "priority": 3
+    },
+    {
+      "id": "lever",
+      "label": "Lever",
+      "urls": ["https://jobs.lever.co/"],
+      "search_hints": ["site:jobs.lever.co \"Operations Manager\" BC Canada"],
+      "url_patterns": ["jobs.lever.co"],
+      "priority": 3
+    },
+    {
+      "id": "workday",
+      "label": "Workday",
+      "urls": ["https://www.myworkdayjobs.com/en-US/External_Career_Site"],
+      "search_hints": ["site:myworkdayjobs.com \"Operations Manager\" \"British Columbia\""],
+      "url_patterns": ["myworkdayjobs.com", "wd3.myworkday.com", "wd5.myworkday.com"],
+      "priority": 3
+    },
+    {
+      "id": "icims",
+      "label": "iCIMS",
+      "urls": [],
+      "search_hints": ["site:careers.icims.com \"Operations Manager\" \"British Columbia\""],
+      "url_patterns": ["careers.icims.com"],
+      "priority": 3
+    },
+    {
+      "id": "bamboohr",
+      "label": "BambooHR",
+      "urls": ["https://svante.bamboohr.com/careers"],
+      "search_hints": ["site:*.bamboohr.com/careers \"Operations Manager\" BC Canada"],
+      "url_patterns": ["bamboohr.com/careers", "bamboohr.com/jobs"],
+      "priority": 3
+    },
+    {
+      "id": "job_boards",
+      "label": "Job Boards CA",
+      "urls": [
+        "https://ca.indeed.com/jobs?q=manager%20&l=BC&&fromage=3",
+        "https://www.bcjobs.ca/search-jobs?q=manager&location=#page=1&q=manager&freshness=7",
+        "https://www.eluta.ca/search?q=operations+manager&l=british+columbia",
+        "https://wellfound.com/jobs"
+      ],
+      "url_patterns": ["jobbank.gc.ca", "bcjobs.ca", "eluta.ca", "workopolis.com", "monster.ca", "wowjobs.ca", "civicjobs.ca"],
+      "priority": 4
+    },
+    {
+      "id": "indeed",
+      "label": "Indeed",
+      "urls": [],
+      "url_patterns": ["ca.indeed.com/viewjob", "indeed.com/viewjob"],
+      "priority": 4
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "urls": [],
+      "url_patterns": ["linkedin.com/jobs/view", "ca.linkedin.com/jobs/view"],
+      "priority": 5,
+      "mode": "overlay"
+    }
+  ]
+}

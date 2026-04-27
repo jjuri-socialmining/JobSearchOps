@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-04-25T02:35:13.096Z",
+  "source": "multi-source",
+  "keywords_used": [
+    "manager",
+    "project manager",
+    "program manager",
+    "operations manager",
+    "portfolio manager",
+    "contracts manager",
+    "contract manager",
+    "risk manager",
+    "compliance manager",
+    "policy manager",
+    "business operations",
+    "vendor manager",
+    "commercial manager"
+  ],
+  "exclusions_used": {
+    "excluded_title_keywords": [
+      "assistant",
+      "clerk",
+      "legal counsel",
+      "paralegal",
+      "probation officer",
+      "child protection worker",
+      "developer",
+      "engineer",
+      "technician",
+      "property transfer tax",
+      "sales manager",
+      "local manager",
+      "marking"
+    ],
+    "excluded_exact_titles": [
+      "BAND 4 - Portfolio Manager, Short Term Financing",
+      "ADMN O 21R - Facilities Project Manager - Lateral Only",
+      "BAND 3 - Senior Manager, Finance and Administration - Lateral Only",
+      "BAND 3 - Construction Manager, Grading - Lateral Only"
+    ],
+    "excluded_organizations": [],
+    "excluded_post_keywords": [
+      "journalism"
+    ],
+    "excluded_work_options": [
+      "on-site",
+      "onsite",
+      "in-office",
+      "100% on-site",
+      "100% onsite",
+      "full-time office"
+    ]
+  },
+  "capture_file": "tmp/jobops-pipeline/latest-capture.json",
+  "enrich_file": "tmp/jobops-pipeline/latest-enriched.json",
+  "score_file": "tmp/jobops-pipeline/latest-scored.json",
+  "sheets_file": "tmp/jobops-pipeline/latest-sheets-payload.json",
+  "obsidian_file": "tmp/jobops-pipeline/latest-jobs.md",
+  "source_runs": [
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "adapter": "bc-gov",
+      "capture_method": "public-html",
+      "configured": true,
+      "status": "ERROR",
+      "status_note": "fetch failed",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "crown-corporations",
+      "source_name": "BC Crown Corporations",
+      "adapter": "generic-careers-page",
+      "capture_method": "manual-registry",
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing manual_jobs/sources",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "greenhouse-boards",
+      "source_name": "Greenhouse Boards",
+      "adapter": "greenhouse",
+      "capture_method": "greenhouse-api",
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing board_tokens",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "lever-boards",
+      "source_name": "Lever Boards",
+      "adapter": "lever",
+      "capture_method": "lever-api",
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing sites",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "workday-public",
+      "source_name": "Workday Public Endpoints",
+      "adapter": "workday",
+      "capture_method": "public-json",
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing endpoints",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "company-careers",
+      "source_name": "Company Career Pages",
+      "adapter": "generic-careers-page",
+      "capture_method": "manual-or-json",
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing manual_jobs/sources",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    }
+  ],
+  "job_count": 0,
+  "decisions": {},
+  "run_id": "20260425T023513Z",
+  "run_dir": "tmp/jobops-pipeline/runs/20260425T023513Z-multi-source-level1",
+  "report_md_file": "tmp/jobops-pipeline/runs/20260425T023513Z-multi-source-level1/2026-04-25 - multi-source - level1-joboffers.md",
+  "latest_md_file": "tmp/jobops-pipeline/latest-level1-jobs.md"
+}

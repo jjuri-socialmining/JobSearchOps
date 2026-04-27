@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-04-25T16:31:36.409Z",
+  "source_count": 1,
+  "source": "bc_public_service",
+  "keywords_used": [
+    "manager"
+  ],
+  "exclusions_used": {
+    "excluded_title_keywords": [
+      "assistant",
+      "clerk",
+      "legal counsel",
+      "paralegal",
+      "probation officer",
+      "child protection worker",
+      "developer",
+      "engineer",
+      "technician",
+      "property transfer tax",
+      "sales manager",
+      "local manager",
+      "marking"
+    ],
+    "excluded_exact_titles": [
+      "BAND 4 - Portfolio Manager, Short Term Financing",
+      "ADMN O 21R - Facilities Project Manager - Lateral Only",
+      "BAND 3 - Senior Manager, Finance and Administration - Lateral Only",
+      "BAND 3 - Construction Manager, Grading - Lateral Only"
+    ],
+    "excluded_organizations": [],
+    "excluded_post_keywords": [
+      "journalism"
+    ],
+    "excluded_work_options": [
+      "on-site",
+      "onsite",
+      "in-office",
+      "100% on-site",
+      "100% onsite",
+      "full-time office"
+    ]
+  },
+  "runtime_filters": {
+    "max_posted_days": 30
+  },
+  "source_runs": [
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "adapter": "bc-gov",
+      "capture_method": "public-html",
+      "configured": true,
+      "status": "CAPTURED",
+      "status_note": "configured",
+      "job_count_raw": 15,
+      "job_count_after_filters": 5,
+      "filtered_out_count": 10,
+      "llm_tokens_total": null
+    }
+  ],
+  "job_count": 5,
+  "errors": [],
+  "jobs": [
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Social Dev & Poverty Reduction",
+      "title": "Band 3 - Manager of Criminal Operations - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "Band 3 - Manager of Criminal Operations - Lateral Only\nR# 123040 - Social Dev & Poverty Reduction\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 24, 2026\nExpires May 10, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123040",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-25T16:31:36.408Z",
+      "normalized": {
+        "alias": "social-dev-poverty-reduction-band-3-manager-of-criminal-operations-lateral-only-2026-04-25",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {},
+      "score": {},
+      "decision": {},
+      "raw": {
+        "requisition": "123040",
+        "organization": "Social Dev & Poverty Reduction",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/10/2026",
+        "key_html": "\n<p><a href=\"job/123040\">Band 3 - Manager of Criminal Operations - Lateral Only</a></p>\n<p class=\"supp\">R# 123040 - Social Dev & Poverty Reduction</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 10, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "BAND 3 - Audit Manager - Lateral Only",
+      "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria",
+      "remote_mode": "Remote",
+      "posted_at": "04/20/2026",
+      "compensation": "",
+      "description_snippet": "BAND 3 - Audit Manager - Lateral Only\nR# 123134 - Ministry of Finance\nMultiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria\nPosted Apr 20, 2026\nExpires May 4, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123134",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-25T16:31:36.409Z",
+      "normalized": {
+        "alias": "ministry-of-finance-band-3-audit-manager-lateral-only-2026-04-25",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {},
+      "score": {},
+      "decision": {},
+      "raw": {
+        "requisition": "123134",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria",
+        "posted_at": "04/20/2026",
+        "closed_at": "05/04/2026",
+        "key_html": "\n<p><a href=\"job/123134\">BAND 3 - Audit Manager - Lateral Only</a></p>\n<p class=\"supp\">R# 123134 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Cranbrook<br>Dawson Creek<br>Fort St John<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Penticton<br>Prince George<br>Surrey<br>Terrace<br>Vancouver<br>Vernon<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 20, 2026 <br>Expires May 4, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "BAND 3 - Audit Manager",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "BAND 3 - Audit Manager\nR# 123116 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123116",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-25T16:31:36.409Z",
+      "normalized": {
+        "alias": "ministry-of-finance-band-3-audit-manager-2026-04-25",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {},
+      "score": {},
+      "decision": {},
+      "raw": {
+        "requisition": "123116",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/123116\">BAND 3 - Audit Manager</a></p>\n<p class=\"supp\">R# 123116 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Mississauga<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Government Communication and Public Engagement",
+      "title": "BAND 3 - OIC Manager, Digital Content - Lateral Only",
+      "location": "Victoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/13/2026",
+      "compensation": "",
+      "description_snippet": "BAND 3 - OIC Manager, Digital Content - Lateral Only\nR# 123043 - Government Communication and Public Engagement\nVictoria\nPosted Apr 13, 2026\nExpires Apr 27, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123043",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-25T16:31:36.409Z",
+      "normalized": {
+        "alias": "government-communication-and-public-engagement-band-3-oic-manager-digital-content-lateral-only-2026-04-25",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {},
+      "score": {},
+      "decision": {},
+      "raw": {
+        "requisition": "123043",
+        "organization": "Government Communication and Public Engagement",
+        "remote_mode": "Hybrid",
+        "location": "Victoria",
+        "posted_at": "04/13/2026",
+        "closed_at": "04/27/2026",
+        "key_html": "\n<p><a href=\"job/123043\">BAND 3 - OIC Manager, Digital Content - Lateral Only</a></p>\n<p class=\"supp\">R# 123043 - Government Communication and Public Engagement</p>\n<p class=\"supp\">Victoria<br></p>\n<p class=\"supp\">Posted Apr 13, 2026 <br>Expires Apr 27, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Min Transportation and Transit",
+      "title": "BAND 4 - Senior Manager, ITS Services - Lateral Only",
+      "location": "Multiple Locations\nCoquitlam\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/13/2026",
+      "compensation": "",
+      "description_snippet": "BAND 4 - Senior Manager, ITS Services - Lateral Only\nR# 123079 - Min Transportation and Transit\nMultiple Locations\nCoquitlam\nVictoria\nPosted Apr 13, 2026\nExpires Apr 27, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123079",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-25T16:31:36.409Z",
+      "normalized": {
+        "alias": "min-transportation-and-transit-band-4-senior-manager-its-services-lateral-only-2026-04-25",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {},
+      "score": {},
+      "decision": {},
+      "raw": {
+        "requisition": "123079",
+        "organization": "Min Transportation and Transit",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCoquitlam\nVictoria",
+        "posted_at": "04/13/2026",
+        "closed_at": "04/27/2026",
+        "key_html": "\n<p><a href=\"job/123079\">BAND 4 - Senior Manager, ITS Services - Lateral Only</a></p>\n<p class=\"supp\">R# 123079 - Min Transportation and Transit</p>\n<p class=\"supp\">Multiple Locations<br>Coquitlam<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 13, 2026 <br>Expires Apr 27, 2026</p>\n"
+      },
+      "source_priority": 100
+    }
+  ]
+}

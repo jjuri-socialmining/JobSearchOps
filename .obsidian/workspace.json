@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6803aa8885e2012d",
+        "id": "b29d7824ccf0c47d",
         "type": "tabs",
         "children": [
           {
-            "id": "6038d8d4111b6bc2",
+            "id": "f6042403b2944472",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/JobSearchOps.ControlCenter.md",
+                "file": "_gitops/automation/healthy-operations/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JobSearchOps.ControlCenter"
+              "title": "README"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 377.5
   },
   "right": {
     "id": "7bcbc262ad5cba2d",
@@ -180,9 +180,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "6038d8d4111b6bc2",
-  "lastOpenFiles": []
+  "active": "f6042403b2944472",
+  "lastOpenFiles": [
+    "_gitops/automation/healthy-operations/commands-table.md",
+    "automation/healthy-operations/commands-table.md",
+    "automation/healthy-operations/commands/run_prompt_batch_to_n8n.command",
+    "automation/healthy-operations/commands/reenviar_ultimo_batch.command",
+    "automation/healthy-operations/commands/buscar_trabajo_general_bc.command",
+    "automation/healthy-operations/commands/jobops-test-level1.command",
+    "automation/healthy-operations/commands/jobops-run-all-sources.command",
+    "automation/healthy-operations/commands/update-vscode-moc.command",
+    "automation/healthy-operations/commands/generate-commands-table.command",
+    "automation/healthy-operations/commands/detect-vault-path.command",
+    "automation/healthy-operations/commands/ensure-remote.command",
+    "automation/healthy-operations/commands/release-commit-push.command",
+    "_automation/README.md",
+    "_automation/dashboard/README.md",
+    "_gitops/automation/healthy-operations/README.md",
+    "_shared/Templates/Inputs/New foot.md",
+    "_shared/Templates/Startup/vault-context.md",
+    "tmp/jobops-pipeline/runs/20260426T223802Z-adzuna_bc-level1/2026-04-26 - adzuna_bc - level1-joboffers.md",
+    "_gitops/automation/docs/GitOps.Workflows.md",
+    "_gitops/automation/docs/GitOps.Tools.md",
+    "_gitops/automation/docs/GitOps.Technical.md",
+    "_gitops/automation/docs/GitOps.Sources.md",
+    "_gitops/automation/docs/GitOps.Runs.md",
+    "_gitops/automation/docs/GitOps.Operational.md",
+    "_gitops/automation/docs/GitOps.MOC.md",
+    "_gitops/automation/docs/GitOps.Handoff.md",
+    "_gitops/automation/docs/GitOps.Dashboard.md",
+    "_gitops/automation/docs/GitOps.ControlCenter.md",
+    "_gitops/automation/docs/GitOps.AgenticAI.md",
+    "_automation/prompts/agents/architecture-agent.agent.md.md",
+    "_automation/prompts/agents/Untitled.md",
+    "_automation/docs/Automation.Symlink.Inventory.md",
+    "image.png",
+    "tmp/jobops-pipeline/runs/20260425T023621Z-bc_public_service-level1/2026-04-25 - bc_public_service - level1-joboffers.md",
+    "tmp/jobops-pipeline/latest-all-sites-jobs.md",
+    "tmp/jobops-pipeline/runs/20260425T023615Z-multi-source-level1/2026-04-25 - multi-source - level1-joboffers.md"
+  ]
 }

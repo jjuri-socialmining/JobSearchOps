@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"019dc242-2a43-72d2-b288-8d5c4cc42c8f"}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_0","type":"web_search","id":"ws_0d199bc08fb9399b0169ec1927c79c819789800766a660f4a1","query":"","action":{"type":"search"}}}
+{"type":"item.completed","item":{"id":"item_0","type":"web_search","id":"ws_0d199bc08fb9399b0169ec1927c79c819789800766a660f4a1","query":"Operations Manager site:emploisfp-psjobs.cfp-psc.gc.ca British Columbia","action":{"type":"search","query":"Operations Manager site:emploisfp-psjobs.cfp-psc.gc.ca British Columbia","queries":["Operations Manager site:emploisfp-psjobs.cfp-psc.gc.ca British Columbia"]}}}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"[]"}}
+{"type":"turn.completed","usage":{"input_tokens":16776,"cached_input_tokens":0,"output_tokens":43}}
