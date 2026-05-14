@@ -22,3 +22,13 @@ decision:
     - "APLICAR"
     - "SOLO SI ACLARAN X"
     - "DESCARTAR"
+
+handoff:
+  joboffersops:
+    enabled: true
+    output_file: "../JobOffersOps/intake/opportunity-inventory.json"
+    blacklist_file: "../JobOffersOps/intake/company-blacklist.json"
+    qc_decisions_file: "../shared/training/qc-decisions.json"
+    schema: "opportunity-inventory.v1"
+    profile_id: "jorgejuri"
+    only_on_qc_approved: true

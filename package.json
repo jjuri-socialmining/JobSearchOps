@@ -10,6 +10,9 @@
     "jobops:full": "node scripts/jobops-run-full-pipeline.mjs",
     "jobops:test:level1": "node scripts/jobops-run-capture.mjs --source bc-gov && node scripts/jobops-run-score.mjs && node scripts/jobops-export-level1-report.mjs",
     "jobops:all-sites": "bash scripts/jobops-run-all-sources.sh",
-    "jobops:sync-prompt-sources": "node scripts/jobops-sync-prompt-sources.mjs"
+    "jobops:sync-prompt-sources": "node scripts/jobops-sync-prompt-sources.mjs",
+    "jobops:qc": "node scripts/jobops-qc-gate.mjs",
+    "jobops:qc:approve": "node scripts/jobops-qc-gate.mjs --approve",
+    "jobops:qc:report": "node scripts/jobops-qc-gate.mjs --report-only"
   }
 }

@@ -27,12 +27,28 @@ level_1_excluded_title_keywords:
   - "sales manager"
   - "local manager"
   - "marking"
+  # --- migrado desde batches.md ---
+  - "criminal operations"
+  - "financial analyst"
+  - "tax auditor"
+  # --- migrado desde qc-decisions.json ---
+  - "bar manager"
+  - "front of house"
+  - "housekeeping"
+  - "bartender"
+  - "line cook"
+  - "delivery driver"
+  - "postdoctoral"
+  - "registered nurse"
+  - "practical nurse"
+  - "mechanic"
 
 level_1_excluded_exact_titles:
   - "BAND 4 - Portfolio Manager, Short Term Financing"
   - "ADMN O 21R - Facilities Project Manager - Lateral Only"
   - "BAND 3 - Senior Manager, Finance and Administration - Lateral Only"
   - "BAND 3 - Construction Manager, Grading - Lateral Only"
+  - "BAND 2 - Manager of Criminal Operations - Lateral Only"
 
 level_1_excluded_organizations: []
 

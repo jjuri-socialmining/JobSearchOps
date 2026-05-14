@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T00:05:57.463Z",
+  "generated_at": "2026-04-27T23:58:58.457Z",
   "source": "multi-source",
   "keywords_used": [
     "manager",
@@ -129,9 +129,9 @@
       "llm_tokens_total": null
     }
   ],
-  "job_count": 50,
+  "job_count": 88,
   "decisions": {
-    "REVIEW": 32,
+    "REVIEW": 70,
     "APPLY_ONLY_IF_CLARIFIED": 16,
     "DISCARD": 2
   }

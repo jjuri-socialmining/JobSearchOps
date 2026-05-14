@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T00:05:57.463Z",
+  "generated_at": "2026-04-27T23:54:08.593Z",
   "source": "multi-source",
   "keywords_used": [
     "manager",
@@ -101,12 +101,12 @@
       "prompt_url_order": null,
       "adapter": "adzuna",
       "capture_method": "json-api",
-      "configured": true,
-      "status": "CAPTURED",
-      "status_note": "configured adzuna api",
-      "job_count_raw": 150,
-      "job_count_after_filters": 40,
-      "filtered_out_count": 110,
+      "configured": false,
+      "status": "SKIPPED_UNCONFIGURED",
+      "status_note": "missing ADZUNA_APP_ID / ADZUNA_APP_KEY — register free at https://developer.adzuna.com",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
       "llm_tokens_total": null
     },
     {
@@ -129,10 +129,8 @@
       "llm_tokens_total": null
     }
   ],
-  "job_count": 50,
+  "job_count": 48,
   "decisions": {
-    "REVIEW": 32,
-    "APPLY_ONLY_IF_CLARIFIED": 16,
-    "DISCARD": 2
+    "REVIEW": 48
   }
 }

@@ -165,8 +165,16 @@
         "summary": "Tourism, Arts, Culture & Sport - STO-RE 27R - Manager, Land and Timber",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 76,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "123118",
         "organization": "Tourism, Arts, Culture & Sport",
@@ -224,8 +232,16 @@
         "summary": "Ministry of Finance - BAND 3 - Audit Manager - Lateral Only",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "123134",
         "organization": "Ministry of Finance",
@@ -286,8 +302,16 @@
         "summary": "Ministry of Finance - BAND 3 - Audit Manager",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "123116",
         "organization": "Ministry of Finance",
@@ -348,8 +372,16 @@
         "summary": "Government Communication and Public Engagement - BAND 3 - OIC Manager, Digital Content - Lateral Only",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "123043",
         "organization": "Government Communication and Public Engagement",
@@ -409,8 +441,16 @@
         "summary": "Min Transportation and Transit - BAND 4 - Senior Manager, ITS Services - Lateral Only",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "123079",
         "organization": "Min Transportation and Transit",
@@ -470,8 +510,16 @@
         "summary": "Ministry of Forests - BAND 2 - Manager, Business Operations - Lateral Only",
         "open_questions": "Validar compensacion"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
       "raw": {
         "requisition": "122574",
         "organization": "Ministry of Forests",
@@ -531,8 +579,16 @@
         "summary": "The Universal Group - Warehouse Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "location": {
           "display_name": "Milner, Greater Vancouver",
@@ -615,8 +671,16 @@
         "summary": "First Nations Technology Council - Recruitment & Admissions Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "location": {
           "__CLASS__": "Adzuna::API::Response::Location",
@@ -699,8 +763,16 @@
         "summary": "First Nations Technology Council - Student Experience Lead",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "latitude": 49.31665,
         "__CLASS__": "Adzuna::API::Response::Job",
@@ -783,8 +855,16 @@
         "summary": "TD Bank - Professional Wealth Branch Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "category": {
           "__CLASS__": "Adzuna::API::Response::Category",
@@ -866,8 +946,16 @@
         "summary": "Gillfor Distribution - Account Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "company": {
           "__CLASS__": "Adzuna::API::Response::Company",
@@ -950,8 +1038,16 @@
         "summary": "Phasor Engineering Inc - Electrical Utilities Project Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoieHAzNDY1VkM4UkdPcnZfTXZ0dWZjQSIsImkiOiI1NzExNTE5NjA5In0.72X8k8nkTdPZwwBgDOyxc2lAEY8IHuqOkJmZrkzKxmc",
         "redirect_url": "https://www.adzuna.ca/details/5711519609?utm_medium=api&utm_source=22902ee0",
@@ -1034,8 +1130,16 @@
         "summary": "The Talent Company - Store Manager - Langley",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "salary_max": 85000,
         "location": {
@@ -1118,8 +1222,16 @@
         "summary": "Royal Bank of Canada - Relationship Manager, Commercial Financial Services",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "company": {
           "__CLASS__": "Adzuna::API::Response::Company",
@@ -1202,8 +1314,16 @@
         "summary": "The District of Sechelt - Wastewater Labourer",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "company": {
           "display_name": "The District of Sechelt",
@@ -1286,8 +1406,16 @@
         "summary": "Cogir Senior Living - Culinary Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "id": "5711177253",
         "longitude": -122.834825,
@@ -1370,8 +1498,16 @@
         "summary": "PayByPhone - Client Success Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "location": {
           "area": [
@@ -1455,8 +1591,16 @@
         "summary": "Quadra - Account Manager, Health & Personal Care",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "category": {
           "label": "Sales Jobs",
@@ -1539,8 +1683,16 @@
         "summary": "Radius Recycling - Ground Person",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "redirect_url": "https://www.adzuna.ca/details/5711174310?utm_medium=api&utm_source=22902ee0",
         "location": {
@@ -1623,8 +1775,16 @@
         "summary": "Passion Dental - Clinic Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "salary_max": 85000,
         "location": {
@@ -1707,8 +1867,16 @@
         "summary": "Business Development Bank of Canada - SENIOR ACCOUNT MANAGER / MANAGER, SPECIAL ACCOUNTS - Vancouver/Calgary",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoieHAzNDY1VkM4UkdPcnZfTXZ0dWZjQSIsImkiOiI1NzExMTczNTQ3In0.DXTMmJB3mkXnic9lHZtX-Zf8LpVUuqbV6cUw7-IyZ2o",
         "description": "We are banking at another level. Choosing BDC as your employer means working in a healthy, inclusive, and skilled workplace that puts forward the best conditions to bring together unique teams where employees are empowered to act. It also means being at the centre of ambitious economic and financial projects to see further and to do things differently, to fuel the success of Canadian entrepreneurs. Choosing BDC as your employer also means: Flexible and competitive benefits , including an Employ…",
@@ -1793,8 +1961,16 @@
         "summary": "Murray Honda - Wash Bay",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcxMTE3MzI0NCIsInMiOiJ4cDM0NjVWQzhSR09ydl9NdnR1ZmNBIn0.k8r4Hr-gFiAZP0lm57G3XdLT3rwKNNos9gibbKZbpoY",
         "redirect_url": "https://www.adzuna.ca/details/5711173244?utm_medium=api&utm_source=22902ee0",
@@ -1877,8 +2053,16 @@
         "summary": "Odlum Brown Limited - Business Systems Analyst",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 83,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcxMTE3MjkzNiIsInMiOiJ4cDM0NjVWQzhSR09ydl9NdnR1ZmNBIn0.elbxiS0WAzodzBbylR5wpnAkVtltaqM5H_LjmORQw1o",
         "redirect_url": "https://www.adzuna.ca/details/5711172936?utm_medium=api&utm_source=22902ee0",
@@ -1960,8 +2144,16 @@
         "summary": "Amazon - Software Development Manager, Amazon Connect Contact Lens",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "contract_time": "full_time",
         "title": "Software Development Manager, Amazon Connect Contact Lens",
@@ -2043,8 +2235,16 @@
         "summary": "FISPAN - Go-To-Market Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "redirect_url": "https://www.adzuna.ca/details/5711172533?utm_medium=api&utm_source=22902ee0",
         "contract_type": "permanent",
@@ -2129,8 +2329,16 @@
         "summary": "University of British Columbia - Venture Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "description": "Staff - Non Union Job Category M&P - AAPS Job Profile AAPS Salaried - Business Development, Level A Job Title Venture Manager Department Venture Managers Compensation Range $6,251.00 - $8,986.00 CAD Monthly The Compensation Range is the span between the minimum and maximum base salary for a position. The midpoint of the range is approximately halfway between the minimum and the maximum and represents an employee that possesses full job knowledge, qualifications and experience for the position. …",
         "redirect_url": "https://www.adzuna.ca/details/5711172155?utm_medium=api&utm_source=22902ee0",
@@ -2212,8 +2420,16 @@
         "summary": "Push Operations - Customer Success Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "location": {
           "display_name": "Greater Vancouver, British Columbia",
@@ -2295,8 +2511,16 @@
         "summary": "Leading Edge Electric - Estimator",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 68,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Tiene potencial, pero faltan datos para invertir tiempo.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "description": "Electrical Estimator: Coquitlam, British Columbia Full-Cycle Estimating | Client-First | Precision & Accountability About Leading Edge Electric Leading Edge Electric is an electrical contractor focused on service work, tenant improvements, and special projects. We are a values driven company building long-term relationships with owners, construction managers, and property managers who share those values and trust us to get things done properly. Our goal is to understand what matters most to our…",
         "redirect_url": "https://www.adzuna.ca/details/5711169406?utm_medium=api&utm_source=22902ee0",
@@ -2379,8 +2603,16 @@
         "summary": "Marmon Holdings - Branch Manager (Vancouver/Victoria, BC)",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "created": "2026-04-26T16:53:14Z",
         "company": {
@@ -2464,8 +2696,16 @@
         "summary": "OpenRoad Auto Group - Financial Services Manager - OpenRoad Honda Burnaby",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "redirect_url": "https://www.adzuna.ca/details/5711168835?utm_medium=api&utm_source=22902ee0",
         "__CLASS__": "Adzuna::API::Response::Job",
@@ -2549,8 +2789,16 @@
         "summary": "MOSAIC - Senior Manager, Marketing and Communications",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "contract_type": "permanent",
         "title": "Senior Manager, Marketing and Communications",
@@ -2637,8 +2885,16 @@
         "summary": "Standard Aero - Director, Quality",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "location": {
           "display_name": "Milner, Greater Vancouver",
@@ -2721,8 +2977,16 @@
         "summary": "Hub International Insurance - Underwriting Administrator, Commercial",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 68,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "DISCARD",
+        "label": "DESCARTAR",
+        "why_now": "Salario maximo conocido por debajo de CAD 70000.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "title": "Underwriting Administrator, Commercial",
         "longitude": -122.976173,
@@ -2805,8 +3069,16 @@
         "summary": "RBGlobal - Manager, Facilities",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "salary_is_predicted": "0",
         "description": "Description The Facility Manager is responsible for managing the daily operations of our 167,000 sq ft Burnaby office. This will include preventive maintenance programs, as well as repairs that will need to be made from time to time. The Facility Manager will also be involved in responsibilities and decisions that are part of the functionality of the site, such as shipping, security, reception, etc. This would include involvement in operations of the administrative office relating to furniture …",
@@ -2889,8 +3161,16 @@
         "summary": "FISPAN - Product Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "longitude": -123.1183,
         "title": "Product Manager",
@@ -2975,8 +3255,16 @@
         "summary": "Klue - Revenue Operations Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "contract_time": "full_time",
         "description": "At Klue , We’re Building the Future of Competitive Intelligence The RevOps Team is Hiring  The Revenue Operations Manage r at Klue plays a pivotal role in managing and optimizing revenue-related processes, aligning sales, marketing, customer success, and other teams, and driving revenue growth through data insights and strategic planning. This role is responsible for identifying revenue opportunities, leading cross-functional initiatives, overseeing systems and data administration, and collabor…",
@@ -3058,8 +3346,16 @@
         "summary": "Nature's Path - Sr. Manager FP&A",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "created": "2026-04-26T16:40:10Z",
         "company": {
@@ -3143,8 +3439,16 @@
         "summary": "Vancity - Account Manager II (BCGEU) - South Burnaby",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "location": {
           "display_name": "Burnaby, Greater Vancouver",
@@ -3228,8 +3532,16 @@
         "summary": "Vancouver Pile Driving - Project Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "APPLY_ONLY_IF_CLARIFIED",
+        "label": "SOLO SI ACLARAN X",
+        "why_now": "Alta senal de encaje por fuente, titulo y ubicacion.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "latitude": 49.330251,
         "company": {
@@ -3312,8 +3624,16 @@
         "summary": "Nurse Next Door - Maple Ridge, BC - Care Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "company": {
           "__CLASS__": "Adzuna::API::Response::Company",
@@ -3396,8 +3716,16 @@
         "summary": "Savers/Value Village - Regional People Services Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "created": "2026-04-26T05:41:16Z",
         "longitude": -123.05792,
@@ -3480,8 +3808,16 @@
         "summary": "MSC - Mediterranean Shipping Company - MANAGER, CUSTOMER EXPERIENCE - WESTERN REGION",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "created": "2026-04-26T05:41:05Z",
         "__CLASS__": "Adzuna::API::Response::Job",
@@ -3565,8 +3901,16 @@
         "summary": "OpenRoad Auto Group - Financial Services Manager - OpenRoad Honda Burnaby",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "created": "2026-04-26T05:32:01Z",
         "longitude": -122.976173,
@@ -3649,8 +3993,16 @@
         "summary": "Cleantech Service Group - Facility Manager",
         "open_questions": "Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 89,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "DISCARD",
+        "label": "DESCARTAR",
+        "why_now": "Salario maximo conocido por debajo de CAD 70000.",
+        "open_questions": "Confirmar modalidad"
+      },
       "raw": {
         "latitude": 49.330251,
         "company": {
@@ -3733,8 +4085,16 @@
         "summary": "Aerotek - Warehouse PM Lead",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "category": {
           "label": "Logistics & Warehouse Jobs",
@@ -3818,8 +4178,16 @@
         "summary": "Savers/Value Village - Regional People Services Manager",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 81,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real"
+      },
       "raw": {
         "__CLASS__": "Adzuna::API::Response::Job",
         "latitude": 49.252255,
@@ -3902,8 +4270,16 @@
         "summary": "CivicJobs.ca - Manager Urban Forestry - City of Coquitlam (Coquitlam, BC)",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "rss_item": "<title>Manager Urban Forestry - City of Coquitlam (Coquitlam, BC)</title><link>http://www.civicjobs.ca/jobs?id=112986</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112986&apos;&gt;http://www.civicjobs.ca/jobs?id=112986&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Monday, May 18, 2026.&lt;br/&gt;</description><pubDate>Mon, 27 Apr 2026 23:10:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112986</guid>",
         "category": "",
@@ -3961,8 +4337,16 @@
         "summary": "CivicJobs.ca - Manager, Business Services - City of North Vancouver (North Vancouver, BC)",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "rss_item": "<title>Manager, Business Services - City of North Vancouver (North Vancouver, BC)</title><link>http://www.civicjobs.ca/jobs?id=112981</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112981&apos;&gt;http://www.civicjobs.ca/jobs?id=112981&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Monday, May 4, 2026.&lt;br/&gt;</description><pubDate>Mon, 27 Apr 2026 21:29:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112981</guid>",
         "category": "",
@@ -4020,8 +4404,16 @@
         "summary": "CivicJobs.ca - Manager Environmental Education & Enforcement - City of Coquitlam (Coquitlam, BC)",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "rss_item": "<title>Manager Environmental Education &amp; Enforcement - City of Coquitlam (Coquitlam, BC)</title><link>http://www.civicjobs.ca/jobs?id=112974</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112974&apos;&gt;http://www.civicjobs.ca/jobs?id=112974&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Monday, May 11, 2026.&lt;br/&gt;</description><pubDate>Mon, 27 Apr 2026 17:40:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112974</guid>",
         "category": "",
@@ -4079,8 +4471,16 @@
         "summary": "CivicJobs.ca - Senior Manager Corporate Communications and Engagement - Capital Regional District (Victoria, BC)",
         "open_questions": "Validar compensacion; Confirmar modalidad"
       },
-      "score": {},
-      "decision": {},
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
       "raw": {
         "rss_item": "<title>Senior Manager Corporate Communications and Engagement - Capital Regional District (Victoria, BC)</title><link>http://www.civicjobs.ca/jobs?id=112929</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112929&apos;&gt;http://www.civicjobs.ca/jobs?id=112929&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Friday, May 15, 2026.&lt;br/&gt;</description><pubDate>Fri, 24 Apr 2026 18:14:47 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112929</guid>",
         "category": "",
@@ -4106,5 +4506,5 @@
       }
     }
   ],
-  "enriched_at": "2026-04-28T00:05:57.437Z"
+  "scored_at": "2026-04-28T00:05:57.463Z"
 }
