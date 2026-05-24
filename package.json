@@ -19,6 +19,7 @@
     "jobops:dashboard": "node scripts/jobops-export-dashboard.mjs"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.4.0"
   }
 }
