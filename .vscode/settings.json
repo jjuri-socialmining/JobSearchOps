@@ -1,0 +1,35 @@
+{
+  // ── Editor ────────────────────────────────────────────────────────────────
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+
+  // ── Auto-save (required for Claude Code to see live changes) ──────────────
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // ── File associations ─────────────────────────────────────────────────────
+  "files.associations": {
+    "*.mjs": "javascript"
+  },
+
+  // ── Watcher exclusions (keep VS Code responsive on large vaults) ──────────
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/.git/**": true,
+    "**/tmp/**": true
+  },
+
+  // ── Terminal scrollback ───────────────────────────────────────────────────
+  "terminal.integrated.scrollback": 5000,
+
+  // ── Claude Code integration ───────────────────────────────────────────────
+  "claude-code.contextFromWorkspace": true,
+  "claude-code.model": "claude-sonnet-4-20250514",
+
+  // ── Extensions ────────────────────────────────────────────────────────────
+  "extensions.ignoreRecommendations": false
+}
