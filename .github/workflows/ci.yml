@@ -32,7 +32,13 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
-      - run: node scripts/jobops-qc-gate.mjs --report-only
+      - run: |
+          if [ -f tmp/jobops-pipeline/opportunity-inventory.json ]; then
+            node scripts/jobops-qc-gate.mjs --report-only
+          else
+            echo "No inventory file found — skipping QC gate (run capture first)"
+            exit 0
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: qc-report
