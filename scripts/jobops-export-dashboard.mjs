@@ -233,6 +233,12 @@ function buildDashboard(jobs, meta) {
   .btn-sug-add.added{background:rgba(99,102,241,.15);color:var(--accent);border-color:rgba(99,102,241,.3);cursor:default;}
 
   .hidden{display:none!important;}
+
+  /* ── Trigger button ── */
+  .btn-trigger{background:rgba(99,102,241,.15);border:1px solid rgba(99,102,241,.4);color:var(--accent);padding:6px 14px;border-radius:5px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .15s;}
+  .btn-trigger:hover{background:rgba(99,102,241,.3);}
+  .btn-trigger:disabled{opacity:.5;cursor:not-allowed;}
+  .trigger-status{font-size:10px;color:var(--muted);margin-top:3px;text-align:center;max-width:120px;}
 </style>
 </head>
 <body>
@@ -250,6 +256,10 @@ function buildDashboard(jobs, meta) {
     <div class="stat red"   ><div class="val" id="cnt-closed">0</div><div class="lbl">Cerradas</div></div>
     <div class="stat orange"><div class="val" id="cnt-desc">0</div><div class="lbl">Descartadas</div></div>
     <div class="stat muted" ><div class="val" id="cnt-total">0</div><div class="lbl">Total</div></div>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;gap:2px;">
+    <button class="btn-trigger" id="btn-trigger" onclick="triggerCapture()">▶ Run Capture</button>
+    <div class="trigger-status" id="trigger-status"></div>
   </div>
 </div>
 
@@ -1021,6 +1031,51 @@ TAB_IDS.forEach(t=>{
 renderRoles();
 updateStats();
 applyFilters();
+
+// ── Trigger: GitHub Actions capture run ──────────────────────────────────────
+const GH_PAT_KEY = 'jobops_gh_pat';
+function triggerCapture(){
+  const btn = document.getElementById('btn-trigger');
+  const status = document.getElementById('trigger-status');
+  let pat = localStorage.getItem(GH_PAT_KEY);
+  if(!pat){
+    pat = prompt('GitHub PAT (workflow scope required):\\nStored in localStorage as "jobops_gh_pat".');
+    if(!pat){ status.textContent='No PAT.'; status.style.color='var(--red)'; return; }
+    localStorage.setItem(GH_PAT_KEY, pat.trim());
+    pat = pat.trim();
+  }
+  btn.disabled = true;
+  status.textContent = 'Triggering…';
+  status.style.color = 'var(--muted)';
+  fetch('https://api.github.com/repos/jjuri-socialmining/JobSearchOps/actions/workflows/ci.yml/dispatches', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': 'Bearer '+pat,
+      'X-GitHub-Api-Version': '2022-11-28',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ ref: 'main' }),
+  }).then(res => {
+    if(res.status === 204){
+      status.textContent = 'Triggered!';
+      status.style.color = 'var(--green)';
+    } else {
+      res.text().then(t => {
+        status.textContent = 'Error '+res.status;
+        status.style.color = 'var(--red)';
+        if(res.status === 401) localStorage.removeItem(GH_PAT_KEY);
+        console.error('trigger error:', t);
+      });
+    }
+  }).catch(e => {
+    status.textContent = 'Network error';
+    status.style.color = 'var(--red)';
+    console.error('trigger error:', e);
+  }).finally(() => {
+    setTimeout(() => { btn.disabled = false; }, 5000);
+  });
+}
 </script>
 </body>
 </html>`;

@@ -2,6 +2,8 @@ import fs from "node:fs";
 import { loadConfig } from "../lib/config-loader.mjs";
 import { normalizeJobs } from "../lib/job-normalizer.mjs";
 import { writeJson } from "../lib/file-utils.mjs";
+import { upsert as historyUpsert, getStats as historyGetStats, getHistory, flush as historyFlush } from "../lib/job-history.mjs";
+import { analyzeDismissals } from "../lib/dismissal-learner.mjs";
 import { captureFromSource as captureBcGov } from "./adapters/bc-gov.mjs";
 import { captureFromSource as captureGreenhouse } from "./adapters/greenhouse.mjs";
 import { captureFromSource as captureLever } from "./adapters/lever.mjs";
@@ -522,6 +524,30 @@ export async function runCapture({ sourcesConfigPath = "config/sources.yaml", ou
 
   if (outputFile) {
     writeJson(outputFile, payload);
+  }
+
+  // Update persistent job history with this capture run
+  for (const job of captured) {
+    historyUpsert(job);
+  }
+  historyFlush();
+
+  const histStats = historyGetStats();
+  console.error(`[history] ${histStats.total} total · ${histStats.seen} seen · ${histStats.dismissed} dismissed`);
+
+  // Auto-run dismissal learner when enough dismissals have accumulated
+  if (histStats.dismissed > 3 && process.env.ANTHROPIC_API_KEY) {
+    console.error(`[dismissal-learner] ${histStats.dismissed} dismissals found — analyzing patterns…`);
+    const dismissed = getHistory().filter(j => j.status === 'dismissed');
+    try {
+      const insights = await analyzeDismissals(dismissed);
+      if (insights) {
+        console.error('[dismissal-learner] insights:');
+        console.error(JSON.stringify(insights, null, 2));
+      }
+    } catch (err) {
+      console.error('[dismissal-learner] error:', err.message);
+    }
   }
 
   return payload;
