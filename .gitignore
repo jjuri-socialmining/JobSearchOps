@@ -5,3 +5,10 @@ build/
 .env
 .env.*
 !.env.example
+credentials.json
+token.json
+
+# Pipeline output — disposable, regenerated each run
+tmp/
+tmp/**
+dashboard/
