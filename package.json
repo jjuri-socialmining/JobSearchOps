@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prestart": "node scripts/check-env.mjs",
+    "lint": "eslint src/ scripts/ --ext .mjs",
     "jobops:capture": "node scripts/jobops-run-capture.mjs",
     "jobops:enrich": "node scripts/jobops-run-enrich.mjs",
     "jobops:score": "node scripts/jobops-run-score.mjs",
@@ -13,6 +15,10 @@
     "jobops:sync-prompt-sources": "node scripts/jobops-sync-prompt-sources.mjs",
     "jobops:qc": "node scripts/jobops-qc-gate.mjs",
     "jobops:qc:approve": "node scripts/jobops-qc-gate.mjs --approve",
-    "jobops:qc:report": "node scripts/jobops-qc-gate.mjs --report-only"
+    "jobops:qc:report": "node scripts/jobops-qc-gate.mjs --report-only",
+    "jobops:dashboard": "node scripts/jobops-export-dashboard.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.0"
   }
 }
