@@ -1,0 +1,3766 @@
+{
+  "generated_at": "2026-04-26T01:58:23.839Z",
+  "source_count": 2,
+  "source": "multi-source",
+  "keywords_used": [
+    "AI"
+  ],
+  "exclusions_used": {
+    "excluded_title_keywords": [
+      "assistant",
+      "clerk",
+      "legal counsel",
+      "paralegal",
+      "probation officer",
+      "child protection worker",
+      "developer",
+      "engineer",
+      "technician",
+      "property transfer tax",
+      "sales manager",
+      "local manager",
+      "marking"
+    ],
+    "excluded_exact_titles": [
+      "BAND 4 - Portfolio Manager, Short Term Financing",
+      "ADMN O 21R - Facilities Project Manager - Lateral Only",
+      "BAND 3 - Senior Manager, Finance and Administration - Lateral Only",
+      "BAND 3 - Construction Manager, Grading - Lateral Only"
+    ],
+    "excluded_organizations": [],
+    "excluded_post_keywords": [
+      "journalism"
+    ],
+    "excluded_work_options": [
+      "on-site",
+      "onsite",
+      "in-office",
+      "100% on-site",
+      "100% onsite",
+      "full-time office"
+    ]
+  },
+  "runtime_filters": {
+    "max_posted_days": 30
+  },
+  "source_runs": [
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "adapter": "bc-gov",
+      "capture_method": "public-html",
+      "configured": true,
+      "status": "CAPTURED",
+      "status_note": "configured",
+      "job_count_raw": 139,
+      "job_count_after_filters": 33,
+      "filtered_out_count": 106,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "adapter": "civicjobs",
+      "capture_method": "rss-xml",
+      "configured": true,
+      "status": "CAPTURED",
+      "status_note": "configured civicjobs rss",
+      "job_count_raw": 557,
+      "job_count_after_filters": 36,
+      "filtered_out_count": 521,
+      "llm_tokens_total": null
+    }
+  ],
+  "job_count": 69,
+  "errors": [],
+  "jobs": [
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Water,Land,ResourceStewardship",
+      "title": "POL SC 27R - Sr. Policy Analyst, Ecosystem Connectivity - Lateral Only",
+      "location": "Multiple Locations\nCranbrook\nKamloops\nNanaimo\nNelson\nPrince George\nSmithers\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/25/2026",
+      "compensation": "",
+      "description_snippet": "POL SC 27R - Sr. Policy Analyst, Ecosystem Connectivity - Lateral Only\nR# 123069 - Water,Land,ResourceStewardship\nMultiple Locations\nCranbrook\nKamloops\nNanaimo\nNelson\nPrince George\nSmithers\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 25, 2026\nExpires May 15, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123069",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.532Z",
+      "normalized": {
+        "alias": "waterlandresourcestewardship-pol-sc-27r-sr-policy-analyst-ecosystem-connectivity-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Water,Land,ResourceStewardship - POL SC 27R - Sr. Policy Analyst, Ecosystem Connectivity - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123069",
+        "organization": "Water,Land,ResourceStewardship",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCranbrook\nKamloops\nNanaimo\nNelson\nPrince George\nSmithers\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/25/2026",
+        "closed_at": "05/15/2026",
+        "key_html": "\n<p><a href=\"job/123069\">POL SC 27R - Sr. Policy Analyst, Ecosystem Connectivity - Lateral Only</a></p>\n<p class=\"supp\">R# 123069 - Water,Land,ResourceStewardship</p>\n<p class=\"supp\">Multiple Locations<br>Cranbrook<br>Kamloops<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 25, 2026 <br>Expires May 15, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Social Dev & Poverty Reduction",
+      "title": "Band 3 - Manager of Criminal Operations - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "Band 3 - Manager of Criminal Operations - Lateral Only\nR# 123040 - Social Dev & Poverty Reduction\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 24, 2026\nExpires May 10, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123040",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "social-dev-poverty-reduction-band-3-manager-of-criminal-operations-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Social Dev & Poverty Reduction - Band 3 - Manager of Criminal Operations - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123040",
+        "organization": "Social Dev & Poverty Reduction",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/10/2026",
+        "key_html": "\n<p><a href=\"job/123040\">Band 3 - Manager of Criminal Operations - Lateral Only</a></p>\n<p class=\"supp\">R# 123040 - Social Dev & Poverty Reduction</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 10, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Social Dev & Poverty Reduction",
+      "title": "ADMIN O (IO) 18R - Quality and Compliance Specialist",
+      "location": "Multiple Locations\nBurnaby\nKelowna\nNanaimo\nPrince George\nSurrey\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "ADMIN O (IO) 18R - Quality and Compliance Specialist\nR# 123208 - Social Dev & Poverty Reduction\nMultiple Locations\nBurnaby\nKelowna\nNanaimo\nPrince George\nSurrey\nVictoria\nPosted Apr 24, 2026\nExpires May 8, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123208",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "social-dev-poverty-reduction-admin-o-io-18r-quality-and-compliance-specialist-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Social Dev & Poverty Reduction - ADMIN O (IO) 18R - Quality and Compliance Specialist",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123208",
+        "organization": "Social Dev & Poverty Reduction",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurnaby\nKelowna\nNanaimo\nPrince George\nSurrey\nVictoria",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/08/2026",
+        "key_html": "\n<p><a href=\"job/123208\">ADMIN O (IO) 18R - Quality and Compliance Specialist</a></p>\n<p class=\"supp\">R# 123208 - Social Dev & Poverty Reduction</p>\n<p class=\"supp\">Multiple Locations<br>Burnaby<br>Kelowna<br>Nanaimo<br>Prince George<br>Surrey<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 8, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Housing and Municipal Affairs",
+      "title": "BAND 5 - Executive Director - Lateral Only",
+      "location": "Victoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "BAND 5 - Executive Director - Lateral Only\nR# 123230 - Housing and Municipal Affairs\nVictoria\nPosted Apr 24, 2026\nExpires May 1, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123230",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "housing-and-municipal-affairs-band-5-executive-director-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "social-impact",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Housing and Municipal Affairs - BAND 5 - Executive Director - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123230",
+        "organization": "Housing and Municipal Affairs",
+        "remote_mode": "Hybrid",
+        "location": "Victoria",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/01/2026",
+        "key_html": "\n<p><a href=\"job/123230\">BAND 5 - Executive Director - Lateral Only</a></p>\n<p class=\"supp\">R# 123230 - Housing and Municipal Affairs</p>\n<p class=\"supp\">Victoria<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 1, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Infrastructure",
+      "title": "FO 18R - Financial Analyst",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "FO 18R - Financial Analyst\nR# 123232 - Ministry of Infrastructure\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 24, 2026\nExpires May 8, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123232",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-infrastructure-fo-18r-financial-analyst-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Infrastructure - FO 18R - Financial Analyst",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123232",
+        "organization": "Ministry of Infrastructure",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/08/2026",
+        "key_html": "\n<p><a href=\"job/123232\">FO 18R - Financial Analyst</a></p>\n<p class=\"supp\">R# 123232 - Ministry of Infrastructure</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 8, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Public Safety & Sol General",
+      "title": "FO 21R - Financial Analyst - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/24/2026",
+      "compensation": "",
+      "description_snippet": "FO 21R - Financial Analyst - Lateral Only\nR# 123263 - Public Safety & Sol General\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 24, 2026\nExpires May 8, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123263",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "public-safety-sol-general-fo-21r-financial-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Public Safety & Sol General - FO 21R - Financial Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123263",
+        "organization": "Public Safety & Sol General",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/24/2026",
+        "closed_at": "05/08/2026",
+        "key_html": "\n<p><a href=\"job/123263\">FO 21R - Financial Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123263 - Public Safety & Sol General</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 24, 2026 <br>Expires May 8, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "LSO FORS 3A - Forest Management Data Analyst - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/23/2026",
+      "compensation": "",
+      "description_snippet": "LSO FORS 3A - Forest Management Data Analyst - Lateral Only\nR# 123167 - Ministry of Forests\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake\nPosted Apr 23, 2026\nExpires May 14, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123167",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-lso-fors-3a-forest-management-data-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - LSO FORS 3A - Forest Management Data Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123167",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+        "posted_at": "04/23/2026",
+        "closed_at": "05/14/2026",
+        "key_html": "\n<p><a href=\"job/123167\">LSO FORS 3A - Forest Management Data Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123167 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 23, 2026 <br>Expires May 14, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Housing and Municipal Affairs",
+      "title": "PLNG O 27R - Senior Planning Analyst - Lateral Only",
+      "location": "Vancouver",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/22/2026",
+      "compensation": "",
+      "description_snippet": "PLNG O 27R - Senior Planning Analyst - Lateral Only\nR# 123105 - Housing and Municipal Affairs\nVancouver\nPosted Apr 22, 2026\nExpires May 6, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123105",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "housing-and-municipal-affairs-plng-o-27r-senior-planning-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "social-impact",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Housing and Municipal Affairs - PLNG O 27R - Senior Planning Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123105",
+        "organization": "Housing and Municipal Affairs",
+        "remote_mode": "Hybrid",
+        "location": "Vancouver",
+        "posted_at": "04/22/2026",
+        "closed_at": "05/06/2026",
+        "key_html": "\n<p><a href=\"job/123105\">PLNG O 27R - Senior Planning Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123105 - Housing and Municipal Affairs</p>\n<p class=\"supp\">Vancouver<br></p>\n<p class=\"supp\">Posted Apr 22, 2026 <br>Expires May 6, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "BC Public Service Agency",
+      "title": "ADMN O 18R - FOI and Records Analyst - Lateral Only",
+      "location": "Multiple Locations\nKamloops\nNanaimo\nNelson\nPrince George\nVancouver\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/21/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 18R - FOI and Records Analyst - Lateral Only\nR# 123086 - BC Public Service Agency\nMultiple Locations\nKamloops\nNanaimo\nNelson\nPrince George\nVancouver\nVictoria\nPosted Apr 21, 2026\nExpires May 5, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123086",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "bc-public-service-agency-admn-o-18r-foi-and-records-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "BC Public Service Agency - ADMN O 18R - FOI and Records Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123086",
+        "organization": "BC Public Service Agency",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nKamloops\nNanaimo\nNelson\nPrince George\nVancouver\nVictoria",
+        "posted_at": "04/21/2026",
+        "closed_at": "05/05/2026",
+        "key_html": "\n<p><a href=\"job/123086\">ADMN O 18R - FOI and Records Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123086 - BC Public Service Agency</p>\n<p class=\"supp\">Multiple Locations<br>Kamloops<br>Nanaimo<br>Nelson<br>Prince George<br>Vancouver<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 21, 2026 <br>Expires May 5, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Public Safety & Sol General",
+      "title": "ADMN O 24R - Policy Analyst - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/21/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 24R - Policy Analyst - Lateral Only\nR# 123191 - Public Safety & Sol General\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 21, 2026\nExpires May 5, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123191",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "public-safety-sol-general-admn-o-24r-policy-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Public Safety & Sol General - ADMN O 24R - Policy Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123191",
+        "organization": "Public Safety & Sol General",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/21/2026",
+        "closed_at": "05/05/2026",
+        "key_html": "\n<p><a href=\"job/123191\">ADMN O 24R - Policy Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123191 - Public Safety & Sol General</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 21, 2026 <br>Expires May 5, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "FO-TMA 24R - Tax Auditor - Lateral Only",
+      "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/20/2026",
+      "compensation": "",
+      "description_snippet": "FO-TMA 24R - Tax Auditor - Lateral Only\nR# 123101 - Ministry of Finance\nMultiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVictoria\nPosted Apr 20, 2026\nExpires May 4, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123101",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-fo-tma-24r-tax-auditor-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - FO-TMA 24R - Tax Auditor - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123101",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVictoria",
+        "posted_at": "04/20/2026",
+        "closed_at": "05/04/2026",
+        "key_html": "\n<p><a href=\"job/123101\">FO-TMA 24R - Tax Auditor - Lateral Only</a></p>\n<p class=\"supp\">R# 123101 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Cranbrook<br>Dawson Creek<br>Fort St John<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Penticton<br>Prince George<br>Surrey<br>Terrace<br>Vancouver<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 20, 2026 <br>Expires May 4, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "BAND 3 - Audit Manager - Lateral Only",
+      "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria",
+      "remote_mode": "Remote",
+      "posted_at": "04/20/2026",
+      "compensation": "",
+      "description_snippet": "BAND 3 - Audit Manager - Lateral Only\nR# 123134 - Ministry of Finance\nMultiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria\nPosted Apr 20, 2026\nExpires May 4, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123134",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-band-3-audit-manager-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - BAND 3 - Audit Manager - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123134",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nCranbrook\nDawson Creek\nFort St John\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPrince George\nSurrey\nTerrace\nVancouver\nVernon\nVictoria",
+        "posted_at": "04/20/2026",
+        "closed_at": "05/04/2026",
+        "key_html": "\n<p><a href=\"job/123134\">BAND 3 - Audit Manager - Lateral Only</a></p>\n<p class=\"supp\">R# 123134 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Cranbrook<br>Dawson Creek<br>Fort St John<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Penticton<br>Prince George<br>Surrey<br>Terrace<br>Vancouver<br>Vernon<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 20, 2026 <br>Expires May 4, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Social Dev & Poverty Reduction",
+      "title": "ADMN O 21R - Ministry Investigator",
+      "location": "Multiple Locations\nBurnaby\nCampbell River\nChilliwack\nCourtenay\nDuncan\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPort Alberni\nPowell River\nPrince George\nPrince Rupert\nQuesnel\nSalmon Arm\nSechelt\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/18/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 21R - Ministry Investigator\nR# 123106 - Social Dev & Poverty Reduction\nMultiple Locations\nBurnaby\nCampbell River\nChilliwack\nCourtenay\nDuncan\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPort Alberni\nPowell River\nPrince George\nPrince Rupert\nQuesnel\nSalmon Arm\nSechelt\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake\nPosted Apr 18, 2026\nExpires May 1, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123106",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "social-dev-poverty-reduction-admn-o-21r-ministry-investigator-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Social Dev & Poverty Reduction - ADMN O 21R - Ministry Investigator",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123106",
+        "organization": "Social Dev & Poverty Reduction",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurnaby\nCampbell River\nChilliwack\nCourtenay\nDuncan\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPenticton\nPort Alberni\nPowell River\nPrince George\nPrince Rupert\nQuesnel\nSalmon Arm\nSechelt\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake",
+        "posted_at": "04/18/2026",
+        "closed_at": "05/01/2026",
+        "key_html": "\n<p><a href=\"job/123106\">ADMN O 21R - Ministry Investigator</a></p>\n<p class=\"supp\">R# 123106 - Social Dev & Poverty Reduction</p>\n<p class=\"supp\">Multiple Locations<br>Burnaby<br>Campbell River<br>Chilliwack<br>Courtenay<br>Duncan<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Penticton<br>Port Alberni<br>Powell River<br>Prince George<br>Prince Rupert<br>Quesnel<br>Salmon Arm<br>Sechelt<br>Surrey<br>Terrace<br>Vernon<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 18, 2026 <br>Expires May 1, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Attorney General",
+      "title": "CR CNSL MG - Deputy Regional Crown Counsel",
+      "location": "Nanaimo",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/17/2026",
+      "compensation": "",
+      "description_snippet": "CR CNSL MG - Deputy Regional Crown Counsel\nR# 122972 - Attorney General\nNanaimo\nPosted Apr 17, 2026\nExpires May 1, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122972",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "attorney-general-cr-cnsl-mg-deputy-regional-crown-counsel-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Attorney General - CR CNSL MG - Deputy Regional Crown Counsel",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 55,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122972",
+        "organization": "Attorney General",
+        "remote_mode": "Hybrid",
+        "location": "Nanaimo",
+        "posted_at": "04/17/2026",
+        "closed_at": "05/01/2026",
+        "key_html": "\n<p><a href=\"job/122972\">CR CNSL MG - Deputy Regional Crown Counsel</a></p>\n<p class=\"supp\">R# 122972 - Attorney General</p>\n<p class=\"supp\">Nanaimo<br></p>\n<p class=\"supp\">Posted Apr 17, 2026 <br>Expires May 1, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Children & Family Development",
+      "title": "ADMN O 21R - Business Application Advisor - Lateral Only",
+      "location": "Multiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson\nPort Moody\nPrince George\nSurrey\nVancouver\nVernon\nVictoria\nWest Kelowna\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/17/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 21R - Business Application Advisor - Lateral Only\nR# 123042 - Children & Family Development\nMultiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson\nPort Moody\nPrince George\nSurrey\nVancouver\nVernon\nVictoria\nWest Kelowna\nWilliams Lake\nPosted Apr 17, 2026\nExpires May 3, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123042",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "children-family-development-admn-o-21r-business-application-advisor-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Children & Family Development - ADMN O 21R - Business Application Advisor - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123042",
+        "organization": "Children & Family Development",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson\nPort Moody\nPrince George\nSurrey\nVancouver\nVernon\nVictoria\nWest Kelowna\nWilliams Lake",
+        "posted_at": "04/17/2026",
+        "closed_at": "05/03/2026",
+        "key_html": "\n<p><a href=\"job/123042\">ADMN O 21R - Business Application Advisor - Lateral Only</a></p>\n<p class=\"supp\">R# 123042 - Children & Family Development</p>\n<p class=\"supp\">Multiple Locations<br>Burnaby<br>Campbell River<br>Creston<br>Fort Nelson<br>Fort St John<br>Hope<br>Kelowna<br>Nanaimo<br>Nelson<br>Port Moody<br>Prince George<br>Surrey<br>Vancouver<br>Vernon<br>Victoria<br>West Kelowna<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 17, 2026 <br>Expires May 3, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Children & Family Development",
+      "title": "ADMN O 18R - Project Officer - Lateral Only",
+      "location": "Multiple Locations\nBurnaby\nCampbell River\nChetwynd\nCreston\nDaajing Giids\nDawson Creek\nFort Nelson\nFort St John\nHazelton\nHope\nKelowna\nKitimat\nMackenzie\nMcBride\nNanaimo\nNelson\nPort Moody\nPrince George\nQuesnel\nSurrey\nTerrace\nVancouver\nVanderhoof\nVernon\nVictoria\nWest Kelowna\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/17/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 18R - Project Officer - Lateral Only\nR# 123071 - Children & Family Development\nMultiple Locations\nBurnaby\nCampbell River\nChetwynd\nCreston\nDaajing Giids\nDawson Creek\nFort Nelson\nFort St John\nHazelton\nHope\nKelowna\nKitimat\nMackenzie\nMcBride\nNanaimo\nNelson\nPort Moody\nPrince George\nQuesnel\nSurrey\nTerrace\nVancouver\nVanderhoof\nVernon\nVictoria\nWest Kelowna\nWilliams Lake\nPosted Apr 17, 2026\nExpires May 3, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123071",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "children-family-development-admn-o-18r-project-officer-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Children & Family Development - ADMN O 18R - Project Officer - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123071",
+        "organization": "Children & Family Development",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurnaby\nCampbell River\nChetwynd\nCreston\nDaajing Giids\nDawson Creek\nFort Nelson\nFort St John\nHazelton\nHope\nKelowna\nKitimat\nMackenzie\nMcBride\nNanaimo\nNelson\nPort Moody\nPrince George\nQuesnel\nSurrey\nTerrace\nVancouver\nVanderhoof\nVernon\nVictoria\nWest Kelowna\nWilliams Lake",
+        "posted_at": "04/17/2026",
+        "closed_at": "05/03/2026",
+        "key_html": "\n<p><a href=\"job/123071\">ADMN O 18R - Project Officer - Lateral Only</a></p>\n<p class=\"supp\">R# 123071 - Children & Family Development</p>\n<p class=\"supp\">Multiple Locations<br>Burnaby<br>Campbell River<br>Chetwynd<br>Creston<br>Daajing Giids<br>Dawson Creek<br>Fort Nelson<br>Fort St John<br>Hazelton<br>Hope<br>Kelowna<br>Kitimat<br>Mackenzie<br>McBride<br>Nanaimo<br>Nelson<br>Port Moody<br>Prince George<br>Quesnel<br>Surrey<br>Terrace<br>Vancouver<br>Vanderhoof<br>Vernon<br>Victoria<br>West Kelowna<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 17, 2026 <br>Expires May 3, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Water,Land,ResourceStewardship",
+      "title": "STO-RE 27R - Land and Resource Specialist",
+      "location": "Multiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "STO-RE 27R - Land and Resource Specialist\nR# 122656 - Water,Land,ResourceStewardship\nMultiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122656",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "waterlandresourcestewardship-sto-re-27r-land-and-resource-specialist-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Water,Land,ResourceStewardship - STO-RE 27R - Land and Resource Specialist",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122656",
+        "organization": "Water,Land,ResourceStewardship",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/122656\">STO-RE 27R - Land and Resource Specialist</a></p>\n<p class=\"supp\">R# 122656 - Water,Land,ResourceStewardship</p>\n<p class=\"supp\">Multiple Locations<br>Campbell River<br>Chilliwack<br>Courtenay<br>Daajing Giids<br>Hope<br>Nanaimo<br>Port Alberni<br>Port McNeill<br>Powell River<br>Squamish<br>Surrey<br>Vancouver<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Water,Land,ResourceStewardship",
+      "title": "LSO OTHR 3A - Land and Resource Specialist",
+      "location": "Multiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "LSO OTHR 3A - Land and Resource Specialist\nR# 122657 - Water,Land,ResourceStewardship\nMultiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122657",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "waterlandresourcestewardship-lso-othr-3a-land-and-resource-specialist-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Water,Land,ResourceStewardship - LSO OTHR 3A - Land and Resource Specialist",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122657",
+        "organization": "Water,Land,ResourceStewardship",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCampbell River\nChilliwack\nCourtenay\nDaajing Giids\nHope\nNanaimo\nPort Alberni\nPort McNeill\nPowell River\nSquamish\nSurrey\nVancouver\nVictoria",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/122657\">LSO OTHR 3A - Land and Resource Specialist</a></p>\n<p class=\"supp\">R# 122657 - Water,Land,ResourceStewardship</p>\n<p class=\"supp\">Multiple Locations<br>Campbell River<br>Chilliwack<br>Courtenay<br>Daajing Giids<br>Hope<br>Nanaimo<br>Port Alberni<br>Port McNeill<br>Powell River<br>Squamish<br>Surrey<br>Vancouver<br>Victoria<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "FO TAX 27R - Senior Auditor",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nChilliwack\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nRichmond\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "FO TAX 27R - Senior Auditor\nR# 122925 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nChilliwack\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nRichmond\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122925",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-fo-tax-27r-senior-auditor-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - FO TAX 27R - Senior Auditor",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 75,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122925",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nChilliwack\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nRichmond\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/122925\">FO TAX 27R - Senior Auditor</a></p>\n<p class=\"supp\">R# 122925 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Chilliwack<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Richmond<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "STO 27R - Archaeology Permitting and Assessment Supervisor - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "STO 27R - Archaeology Permitting and Assessment Supervisor - Lateral Only\nR# 122979 - Ministry of Forests\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122979",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-sto-27r-archaeology-permitting-and-assessment-supervisor-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - STO 27R - Archaeology Permitting and Assessment Supervisor - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122979",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/122979\">STO 27R - Archaeology Permitting and Assessment Supervisor - Lateral Only</a></p>\n<p class=\"supp\">R# 122979 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "LSO AGRL 5A - Provincial Invasive Species Officer - Lateral Only",
+      "location": "Multiple Locations\nCranbrook\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nVernon",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "LSO AGRL 5A - Provincial Invasive Species Officer - Lateral Only\nR# 123052 - Ministry of Forests\nMultiple Locations\nCranbrook\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nVernon\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123052",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-lso-agrl-5a-provincial-invasive-species-officer-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - LSO AGRL 5A - Provincial Invasive Species Officer - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 55,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123052",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nCranbrook\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nVernon",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/123052\">LSO AGRL 5A - Provincial Invasive Species Officer - Lateral Only</a></p>\n<p class=\"supp\">R# 123052 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>Cranbrook<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Vernon<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Min of Environment & Parks",
+      "title": "LSO OTHR 3A - Senior Environmental Protection Officer - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "LSO OTHR 3A - Senior Environmental Protection Officer - Lateral Only\nR# 123075 - Min of Environment & Parks\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123075",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "min-of-environment-parks-lso-othr-3a-senior-environmental-protection-officer-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Min of Environment & Parks - LSO OTHR 3A - Senior Environmental Protection Officer - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 75,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123075",
+        "organization": "Min of Environment & Parks",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/123075\">LSO OTHR 3A - Senior Environmental Protection Officer - Lateral Only</a></p>\n<p class=\"supp\">R# 123075 - Min of Environment & Parks</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "BAND 3 - Audit Manager",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "BAND 3 - Audit Manager\nR# 123116 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123116",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-band-3-audit-manager-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - BAND 3 - Audit Manager",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123116",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nMississauga\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/123116\">BAND 3 - Audit Manager</a></p>\n<p class=\"supp\">R# 123116 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Mississauga<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Children & Family Development",
+      "title": "AO 24R - Contract Performance Analyst - Lateral Only",
+      "location": "Multiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/16/2026",
+      "compensation": "",
+      "description_snippet": "AO 24R - Contract Performance Analyst - Lateral Only\nR# 123138 - Children & Family Development\nMultiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson\nPosted Apr 16, 2026\nExpires Apr 30, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123138",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "children-family-development-ao-24r-contract-performance-analyst-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Children & Family Development - AO 24R - Contract Performance Analyst - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 70,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123138",
+        "organization": "Children & Family Development",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurnaby\nCampbell River\nCreston\nFort Nelson\nFort St John\nHope\nKelowna\nNanaimo\nNelson",
+        "posted_at": "04/16/2026",
+        "closed_at": "04/30/2026",
+        "key_html": "\n<p><a href=\"job/123138\">AO 24R - Contract Performance Analyst - Lateral Only</a></p>\n<p class=\"supp\">R# 123138 - Children & Family Development</p>\n<p class=\"supp\">Multiple Locations<br>Burnaby<br>Campbell River<br>Creston<br>Fort Nelson<br>Fort St John<br>Hope<br>Kelowna<br>Nanaimo<br>Nelson<br></p>\n<p class=\"supp\">Posted Apr 16, 2026 <br>Expires Apr 30, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Water,Land,ResourceStewardship",
+      "title": "BAND 4 - Director of Provincial Priorities - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/15/2026",
+      "compensation": "",
+      "description_snippet": "BAND 4 - Director of Provincial Priorities - Lateral Only\nR# 122838 - Water,Land,ResourceStewardship\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake\nPosted Apr 15, 2026\nExpires Apr 28, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122838",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "waterlandresourcestewardship-band-4-director-of-provincial-priorities-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Water,Land,ResourceStewardship - BAND 4 - Director of Provincial Priorities - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122838",
+        "organization": "Water,Land,ResourceStewardship",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+        "posted_at": "04/15/2026",
+        "closed_at": "04/28/2026",
+        "key_html": "\n<p><a href=\"job/122838\">BAND 4 - Director of Provincial Priorities - Lateral Only</a></p>\n<p class=\"supp\">R# 122838 - Water,Land,ResourceStewardship</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 15, 2026 <br>Expires Apr 28, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Post-Sec Ed & Future Skills",
+      "title": "ADMN O 27R - Senior Advisor",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/15/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 27R - Senior Advisor\nR# 123104 - Post-Sec Ed & Future Skills\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 15, 2026\nExpires Apr 29, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123104",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "post-sec-ed-future-skills-admn-o-27r-senior-advisor-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Post-Sec Ed & Future Skills - ADMN O 27R - Senior Advisor",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 75,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123104",
+        "organization": "Post-Sec Ed & Future Skills",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/15/2026",
+        "closed_at": "04/29/2026",
+        "key_html": "\n<p><a href=\"job/123104\">ADMN O 27R - Senior Advisor</a></p>\n<p class=\"supp\">R# 123104 - Post-Sec Ed & Future Skills</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 15, 2026 <br>Expires Apr 29, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "BAND 5 - Director, Timber Pricing - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/14/2026",
+      "compensation": "",
+      "description_snippet": "BAND 5 - Director, Timber Pricing - Lateral Only\nR# 123111 - Ministry of Forests\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake\nPosted Apr 14, 2026\nExpires Apr 28, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123111",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-band-5-director-timber-pricing-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - BAND 5 - Director, Timber Pricing - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123111",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVictoria\nWilliams Lake",
+        "posted_at": "04/14/2026",
+        "closed_at": "04/28/2026",
+        "key_html": "\n<p><a href=\"job/123111\">BAND 5 - Director, Timber Pricing - Lateral Only</a></p>\n<p class=\"supp\">R# 123111 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 14, 2026 <br>Expires Apr 28, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "ADMN O 21R - Training Specialist - Lateral Only",
+      "location": "Multiple Locations\nBurns Lake\nMackenzie\nPrince George\nQuesnel\nVanderhoof\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/10/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 21R - Training Specialist - Lateral Only\nR# 122552 - Ministry of Forests\nMultiple Locations\nBurns Lake\nMackenzie\nPrince George\nQuesnel\nVanderhoof\nWilliams Lake\nPosted Apr 10, 2026\nExpires Apr 26, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122552",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-admn-o-21r-training-specialist-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - ADMN O 21R - Training Specialist - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 55,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122552",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\nBurns Lake\nMackenzie\nPrince George\nQuesnel\nVanderhoof\nWilliams Lake",
+        "posted_at": "04/10/2026",
+        "closed_at": "04/26/2026",
+        "key_html": "\n<p><a href=\"job/122552\">ADMN O 21R - Training Specialist - Lateral Only</a></p>\n<p class=\"supp\">R# 122552 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>Burns Lake<br>Mackenzie<br>Prince George<br>Quesnel<br>Vanderhoof<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 10, 2026 <br>Expires Apr 26, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "FO TAX 27R - Senior Tax Auditor - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/09/2026",
+      "compensation": "",
+      "description_snippet": "FO TAX 27R - Senior Tax Auditor - Lateral Only\nR# 122986 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 9, 2026\nExpires Apr 26, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122986",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-fo-tax-27r-senior-tax-auditor-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - FO TAX 27R - Senior Tax Auditor - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 75,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122986",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/09/2026",
+        "closed_at": "04/26/2026",
+        "key_html": "\n<p><a href=\"job/122986\">FO TAX 27R - Senior Tax Auditor - Lateral Only</a></p>\n<p class=\"supp\">R# 122986 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 9, 2026 <br>Expires Apr 26, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "ADMN O 18R - Adjudication Analyst, LOTA - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/09/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 18R - Adjudication Analyst, LOTA - Lateral Only\nR# 123006 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 9, 2026\nExpires Apr 27, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123006",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-admn-o-18r-adjudication-analyst-lota-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - ADMN O 18R - Adjudication Analyst, LOTA - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 84,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123006",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/09/2026",
+        "closed_at": "04/27/2026",
+        "key_html": "\n<p><a href=\"job/123006\">ADMN O 18R - Adjudication Analyst, LOTA - Lateral Only</a></p>\n<p class=\"supp\">R# 123006 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 9, 2026 <br>Expires Apr 27, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Finance",
+      "title": "ADMN O 24R - Senior Adjudicator - Lateral Only",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/09/2026",
+      "compensation": "",
+      "description_snippet": "ADMN O 24R - Senior Adjudicator - Lateral Only\nR# 123007 - Ministry of Finance\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 9, 2026\nExpires Apr 27, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/123007",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-finance-admn-o-24r-senior-adjudicator-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Finance - ADMN O 24R - Senior Adjudicator - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 75,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "123007",
+        "organization": "Ministry of Finance",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/09/2026",
+        "closed_at": "04/27/2026",
+        "key_html": "\n<p><a href=\"job/123007\">ADMN O 24R - Senior Adjudicator - Lateral Only</a></p>\n<p class=\"supp\">R# 123007 - Ministry of Finance</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 9, 2026 <br>Expires Apr 27, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Ministry of Forests",
+      "title": "STO 24R - Spatial Data Specialist - Lateral Only",
+      "location": "Multiple Locations\n100 Mile House\nCastlegar\nFort Nelson\nKamloops\nNanaimo\nNelson\nPort Alberni\nPrince George\nSmithers\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake",
+      "remote_mode": "Hybrid",
+      "posted_at": "04/08/2026",
+      "compensation": "",
+      "description_snippet": "STO 24R - Spatial Data Specialist - Lateral Only\nR# 122817 - Ministry of Forests\nMultiple Locations\n100 Mile House\nCastlegar\nFort Nelson\nKamloops\nNanaimo\nNelson\nPort Alberni\nPrince George\nSmithers\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake\nPosted Apr 8, 2026\nExpires May 7, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122817",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "ministry-of-forests-sto-24r-spatial-data-specialist-lateral-only-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Ministry of Forests - STO 24R - Spatial Data Specialist - Lateral Only",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 69,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122817",
+        "organization": "Ministry of Forests",
+        "remote_mode": "Hybrid",
+        "location": "Multiple Locations\n100 Mile House\nCastlegar\nFort Nelson\nKamloops\nNanaimo\nNelson\nPort Alberni\nPrince George\nSmithers\nSurrey\nTerrace\nVernon\nVictoria\nWilliams Lake",
+        "posted_at": "04/08/2026",
+        "closed_at": "05/07/2026",
+        "key_html": "\n<p><a href=\"job/122817\">STO 24R - Spatial Data Specialist - Lateral Only</a></p>\n<p class=\"supp\">R# 122817 - Ministry of Forests</p>\n<p class=\"supp\">Multiple Locations<br>100 Mile House<br>Castlegar<br>Fort Nelson<br>Kamloops<br>Nanaimo<br>Nelson<br>Port Alberni<br>Prince George<br>Smithers<br>Surrey<br>Terrace<br>Vernon<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 8, 2026 <br>Expires May 7, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "bc-gov",
+      "source_name": "BC Government Careers",
+      "source_type": "government",
+      "organization": "Post-Sec Ed & Future Skills",
+      "title": "POL SIH 27R - Senior Policy Analyst - Lateral Only - AMENDED: Closing Date extended",
+      "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+      "remote_mode": "Remote",
+      "posted_at": "04/08/2026",
+      "compensation": "",
+      "description_snippet": "POL SIH 27R - Senior Policy Analyst - Lateral Only - AMENDED: Closing Date extended\nR# 122934 - Post-Sec Ed & Future Skills\nMultiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake\nPosted Apr 8, 2026\nExpires Apr 29, 2026",
+      "apply_url": "https://bcgovinternaljobpostings.gov.bc.ca/job/122934",
+      "source_url": "https://bcgovinternaljobpostings.gov.bc.ca/",
+      "capture_method": "public-html",
+      "captured_at": "2026-04-26T01:58:23.535Z",
+      "normalized": {
+        "alias": "post-sec-ed-future-skills-pol-sih-27r-senior-policy-analyst-lateral-only-amended-closing-date-extended-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 1,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Post-Sec Ed & Future Skills - POL SIH 27R - Senior Policy Analyst - Lateral Only - AMENDED: Closing Date extended",
+        "open_questions": "Validar compensacion"
+      },
+      "score": {
+        "total": 90,
+        "priority": "alta"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Validar compensacion real"
+      },
+      "raw": {
+        "requisition": "122934",
+        "organization": "Post-Sec Ed & Future Skills",
+        "remote_mode": "Remote",
+        "location": "Multiple Locations\nAbbotsford\nCampbell River\nCranbrook\nFort Nelson\nHope\nKamloops\nKelowna\nNanaimo\nNelson\nPrince George\nSmithers\nSurrey\nVancouver\nVictoria\nWilliams Lake",
+        "posted_at": "04/08/2026",
+        "closed_at": "04/29/2026",
+        "key_html": "\n<p><a href=\"job/122934\">POL SIH 27R - Senior Policy Analyst - Lateral Only - AMENDED: Closing Date extended</a></p>\n<p class=\"supp\">R# 122934 - Post-Sec Ed & Future Skills</p>\n<p class=\"supp\">Multiple Locations<br>Abbotsford<br>Campbell River<br>Cranbrook<br>Fort Nelson<br>Hope<br>Kamloops<br>Kelowna<br>Nanaimo<br>Nelson<br>Prince George<br>Smithers<br>Surrey<br>Vancouver<br>Victoria<br>Williams Lake<br></p>\n<p class=\"supp\">Posted Apr 8, 2026 <br>Expires Apr 29, 2026</p>\n"
+      },
+      "source_priority": 100
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Utility Maintenance Worker I - City of Vancouver (Vancouver, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 24 Apr 2026 17:00:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112925&apos;>http://www.civicjobs.ca/jobs?id=112925</a><br/><br/>Posting expires on Sunday, May 24, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112925",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-utility-maintenance-worker-i-city-of-vancouver-vancouver-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Utility Maintenance Worker I - City of Vancouver (Vancouver, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Utility Maintenance Worker I - City of Vancouver (Vancouver, BC)</title><link>http://www.civicjobs.ca/jobs?id=112925</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112925&apos;&gt;http://www.civicjobs.ca/jobs?id=112925&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Sunday, May 24, 2026.&lt;br/&gt;</description><pubDate>Fri, 24 Apr 2026 17:00:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112925</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112925&apos;>http://www.civicjobs.ca/jobs?id=112925</a><br/><br/>Posting expires on Sunday, May 24, 2026.<br/>",
+        "pubDate": "Fri, 24 Apr 2026 17:00:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Property, Liability, Claims Manager - City of White Rock (White Rock, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 24 Apr 2026 16:53:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112923&apos;>http://www.civicjobs.ca/jobs?id=112923</a><br/><br/>Posting expires on Sunday, May 31, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112923",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-property-liability-claims-manager-city-of-white-rock-white-rock-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Property, Liability, Claims Manager - City of White Rock (White Rock, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Property, Liability, Claims Manager - City of White Rock (White Rock, BC)</title><link>http://www.civicjobs.ca/jobs?id=112923</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112923&apos;&gt;http://www.civicjobs.ca/jobs?id=112923&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Sunday, May 31, 2026.&lt;br/&gt;</description><pubDate>Fri, 24 Apr 2026 16:53:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112923</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112923&apos;>http://www.civicjobs.ca/jobs?id=112923</a><br/><br/>Posting expires on Sunday, May 31, 2026.<br/>",
+        "pubDate": "Fri, 24 Apr 2026 16:53:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "General Manager, Recreation + Parks - Regional District of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 23 Apr 2026 19:00:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112897&apos;>http://www.civicjobs.ca/jobs?id=112897</a><br/><br/>Posting expires on Saturday, May 23, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112897",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-general-manager-recreation-parks-regional-district-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - General Manager, Recreation + Parks - Regional District of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>General Manager, Recreation + Parks - Regional District of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112897</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112897&apos;&gt;http://www.civicjobs.ca/jobs?id=112897&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Saturday, May 23, 2026.&lt;br/&gt;</description><pubDate>Thu, 23 Apr 2026 19:00:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112897</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112897&apos;>http://www.civicjobs.ca/jobs?id=112897</a><br/><br/>Posting expires on Saturday, May 23, 2026.<br/>",
+        "pubDate": "Thu, 23 Apr 2026 19:00:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Heavy Equipment Operator - Regional District of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 23 Apr 2026 17:26:48 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112893&apos;>http://www.civicjobs.ca/jobs?id=112893</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112893",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-heavy-equipment-operator-regional-district-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Heavy Equipment Operator - Regional District of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Heavy Equipment Operator - Regional District of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112893</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112893&apos;&gt;http://www.civicjobs.ca/jobs?id=112893&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, May 7, 2026.&lt;br/&gt;</description><pubDate>Thu, 23 Apr 2026 17:26:48 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112893</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112893&apos;>http://www.civicjobs.ca/jobs?id=112893</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+        "pubDate": "Thu, 23 Apr 2026 17:26:48 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Landfill Attendant - Regional District of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 23 Apr 2026 17:23:29 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112892&apos;>http://www.civicjobs.ca/jobs?id=112892</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112892",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-landfill-attendant-regional-district-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Landfill Attendant - Regional District of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Landfill Attendant - Regional District of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112892</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112892&apos;&gt;http://www.civicjobs.ca/jobs?id=112892&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, May 7, 2026.&lt;br/&gt;</description><pubDate>Thu, 23 Apr 2026 17:23:29 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112892</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112892&apos;>http://www.civicjobs.ca/jobs?id=112892</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+        "pubDate": "Thu, 23 Apr 2026 17:23:29 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Facility Maintenance Worker 2 - Capital Regional District (Victoria, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 23 Apr 2026 16:58:11 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112891&apos;>http://www.civicjobs.ca/jobs?id=112891</a><br/><br/>Posting expires on Saturday, May 23, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112891",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-facility-maintenance-worker-2-capital-regional-district-victoria-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Facility Maintenance Worker 2 - Capital Regional District (Victoria, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Facility Maintenance Worker 2 - Capital Regional District (Victoria, BC)</title><link>http://www.civicjobs.ca/jobs?id=112891</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112891&apos;&gt;http://www.civicjobs.ca/jobs?id=112891&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Saturday, May 23, 2026.&lt;br/&gt;</description><pubDate>Thu, 23 Apr 2026 16:58:11 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112891</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112891&apos;>http://www.civicjobs.ca/jobs?id=112891</a><br/><br/>Posting expires on Saturday, May 23, 2026.<br/>",
+        "pubDate": "Thu, 23 Apr 2026 16:58:11 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Indigenous Emergency Services Liaison - Strathcona Regional District (Campbell River, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 22 Apr 2026 22:21:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112879&apos;>http://www.civicjobs.ca/jobs?id=112879</a><br/><br/>Posting expires on Friday, May 15, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112879",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-indigenous-emergency-services-liaison-strathcona-regional-district-campbell-river-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Indigenous Emergency Services Liaison - Strathcona Regional District (Campbell River, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Indigenous Emergency Services Liaison - Strathcona Regional District (Campbell River, BC)</title><link>http://www.civicjobs.ca/jobs?id=112879</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112879&apos;&gt;http://www.civicjobs.ca/jobs?id=112879&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Friday, May 15, 2026.&lt;br/&gt;</description><pubDate>Wed, 22 Apr 2026 22:21:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112879</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112879&apos;>http://www.civicjobs.ca/jobs?id=112879</a><br/><br/>Posting expires on Friday, May 15, 2026.<br/>",
+        "pubDate": "Wed, 22 Apr 2026 22:21:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Airport Marketing and Communications Advisor - Kelwona International Airport (Kelowna, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 22 Apr 2026 22:01:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112878&apos;>http://www.civicjobs.ca/jobs?id=112878</a><br/><br/>Posting expires on Tuesday, May 12, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112878",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-airport-marketing-and-communications-advisor-kelwona-international-airport-kelowna-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Airport Marketing and Communications Advisor - Kelwona International Airport (Kelowna, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Airport Marketing and Communications Advisor - Kelwona International Airport (Kelowna, BC)</title><link>http://www.civicjobs.ca/jobs?id=112878</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112878&apos;&gt;http://www.civicjobs.ca/jobs?id=112878&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, May 12, 2026.&lt;br/&gt;</description><pubDate>Wed, 22 Apr 2026 22:01:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112878</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112878&apos;>http://www.civicjobs.ca/jobs?id=112878</a><br/><br/>Posting expires on Tuesday, May 12, 2026.<br/>",
+        "pubDate": "Wed, 22 Apr 2026 22:01:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Maintenance Technologist - Metro Vancouver (Burnaby, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 22 Apr 2026 19:57:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112873&apos;>http://www.civicjobs.ca/jobs?id=112873</a><br/><br/>Posting expires on Tuesday, May 5, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112873",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-maintenance-technologist-metro-vancouver-burnaby-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Maintenance Technologist - Metro Vancouver (Burnaby, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Maintenance Technologist - Metro Vancouver (Burnaby, BC)</title><link>http://www.civicjobs.ca/jobs?id=112873</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112873&apos;&gt;http://www.civicjobs.ca/jobs?id=112873&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, May 5, 2026.&lt;br/&gt;</description><pubDate>Wed, 22 Apr 2026 19:57:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112873</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112873&apos;>http://www.civicjobs.ca/jobs?id=112873</a><br/><br/>Posting expires on Tuesday, May 5, 2026.<br/>",
+        "pubDate": "Wed, 22 Apr 2026 19:57:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Deck Leader - Training Opportunity (Various Shifts and Locations) - 1912 - City of Kamloops (Kamloops, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Mon, 20 Apr 2026 22:16:18 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112812&apos;>http://www.civicjobs.ca/jobs?id=112812</a><br/><br/>Posting expires on Friday, May 1, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112812",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-deck-leader-training-opportunity-various-shifts-and-locations-1912-city-of-kamloops-kamloops-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Deck Leader - Training Opportunity (Various Shifts and Locations) - 1912 - City of Kamloops (Kamloops, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Deck Leader - Training Opportunity (Various Shifts and Locations) - 1912 - City of Kamloops (Kamloops, BC)</title><link>http://www.civicjobs.ca/jobs?id=112812</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112812&apos;&gt;http://www.civicjobs.ca/jobs?id=112812&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Friday, May 1, 2026.&lt;br/&gt;</description><pubDate>Mon, 20 Apr 2026 22:16:18 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112812</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112812&apos;>http://www.civicjobs.ca/jobs?id=112812</a><br/><br/>Posting expires on Friday, May 1, 2026.<br/>",
+        "pubDate": "Mon, 20 Apr 2026 22:16:18 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Economic Development Officer - Métis Nation British Columbia (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Mon, 20 Apr 2026 22:02:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112806&apos;>http://www.civicjobs.ca/jobs?id=112806</a><br/><br/>Posting expires on Wednesday, May 6, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112806",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-economic-development-officer-metis-nation-british-columbia-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Economic Development Officer - Métis Nation British Columbia (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Economic Development Officer - Métis Nation British Columbia (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112806</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112806&apos;&gt;http://www.civicjobs.ca/jobs?id=112806&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, May 6, 2026.&lt;br/&gt;</description><pubDate>Mon, 20 Apr 2026 22:02:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112806</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112806&apos;>http://www.civicjobs.ca/jobs?id=112806</a><br/><br/>Posting expires on Wednesday, May 6, 2026.<br/>",
+        "pubDate": "Mon, 20 Apr 2026 22:02:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Operations Communications Centre (OCC) Trainer - Surrey Police Service (Surrey, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 17 Apr 2026 23:30:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112783&apos;>http://www.civicjobs.ca/jobs?id=112783</a><br/><br/>Posting expires on Friday, May 8, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112783",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-operations-communications-centre-occ-trainer-surrey-police-service-surrey-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Operations Communications Centre (OCC) Trainer - Surrey Police Service (Surrey, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 61,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Operations Communications Centre (OCC) Trainer - Surrey Police Service (Surrey, BC)</title><link>http://www.civicjobs.ca/jobs?id=112783</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112783&apos;&gt;http://www.civicjobs.ca/jobs?id=112783&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Friday, May 8, 2026.&lt;br/&gt;</description><pubDate>Fri, 17 Apr 2026 23:30:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112783</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112783&apos;>http://www.civicjobs.ca/jobs?id=112783</a><br/><br/>Posting expires on Friday, May 8, 2026.<br/>",
+        "pubDate": "Fri, 17 Apr 2026 23:30:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "First Aid Instructor - City of Surrey (Surrey, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 17 Apr 2026 22:34:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112774&apos;>http://www.civicjobs.ca/jobs?id=112774</a><br/><br/>Posting expires on Wednesday, June 17, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112774",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-first-aid-instructor-city-of-surrey-surrey-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - First Aid Instructor - City of Surrey (Surrey, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>First Aid Instructor - City of Surrey (Surrey, BC)</title><link>http://www.civicjobs.ca/jobs?id=112774</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112774&apos;&gt;http://www.civicjobs.ca/jobs?id=112774&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, June 17, 2026.&lt;br/&gt;</description><pubDate>Fri, 17 Apr 2026 22:34:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112774</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112774&apos;>http://www.civicjobs.ca/jobs?id=112774</a><br/><br/>Posting expires on Wednesday, June 17, 2026.<br/>",
+        "pubDate": "Fri, 17 Apr 2026 22:34:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Parks Maintenance Worker I - Town of Ladysmith (Ladysmith, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 16 Apr 2026 22:48:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112746&apos;>http://www.civicjobs.ca/jobs?id=112746</a><br/><br/>Posting expires on Saturday, May 16, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112746",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-parks-maintenance-worker-i-town-of-ladysmith-ladysmith-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Parks Maintenance Worker I - Town of Ladysmith (Ladysmith, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Parks Maintenance Worker I - Town of Ladysmith (Ladysmith, BC)</title><link>http://www.civicjobs.ca/jobs?id=112746</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112746&apos;&gt;http://www.civicjobs.ca/jobs?id=112746&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Saturday, May 16, 2026.&lt;br/&gt;</description><pubDate>Thu, 16 Apr 2026 22:48:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112746</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112746&apos;>http://www.civicjobs.ca/jobs?id=112746</a><br/><br/>Posting expires on Saturday, May 16, 2026.<br/>",
+        "pubDate": "Thu, 16 Apr 2026 22:48:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Utilities Maintenance Worker - Township of Langley (Langley, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 16 Apr 2026 21:04:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112742&apos;>http://www.civicjobs.ca/jobs?id=112742</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112742",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-utilities-maintenance-worker-township-of-langley-langley-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Utilities Maintenance Worker - Township of Langley (Langley, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Utilities Maintenance Worker - Township of Langley (Langley, BC)</title><link>http://www.civicjobs.ca/jobs?id=112742</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112742&apos;&gt;http://www.civicjobs.ca/jobs?id=112742&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, May 7, 2026.&lt;br/&gt;</description><pubDate>Thu, 16 Apr 2026 21:04:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112742</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112742&apos;>http://www.civicjobs.ca/jobs?id=112742</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+        "pubDate": "Thu, 16 Apr 2026 21:04:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Supervisor Maintenance Planning - Capital Regional District (Victoria, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 16 Apr 2026 18:28:20 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112732&apos;>http://www.civicjobs.ca/jobs?id=112732</a><br/><br/>Posting expires on Tuesday, May 5, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112732",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-supervisor-maintenance-planning-capital-regional-district-victoria-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Supervisor Maintenance Planning - Capital Regional District (Victoria, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Supervisor Maintenance Planning - Capital Regional District (Victoria, BC)</title><link>http://www.civicjobs.ca/jobs?id=112732</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112732&apos;&gt;http://www.civicjobs.ca/jobs?id=112732&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, May 5, 2026.&lt;br/&gt;</description><pubDate>Thu, 16 Apr 2026 18:28:20 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112732</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112732&apos;>http://www.civicjobs.ca/jobs?id=112732</a><br/><br/>Posting expires on Tuesday, May 5, 2026.<br/>",
+        "pubDate": "Thu, 16 Apr 2026 18:28:20 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Senior Manager, Communications, Marketing and Government Relations - Kelowna International Airport (Kelowna, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 16 Apr 2026 15:50:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112718&apos;>http://www.civicjobs.ca/jobs?id=112718</a><br/><br/>Posting expires on Tuesday, May 12, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112718",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-senior-manager-communications-marketing-and-government-relations-kelowna-international-airport-kelowna-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "public-sector",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Senior Manager, Communications, Marketing and Government Relations - Kelowna International Airport (Kelowna, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Senior Manager, Communications, Marketing and Government Relations - Kelowna International Airport (Kelowna, BC)</title><link>http://www.civicjobs.ca/jobs?id=112718</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112718&apos;&gt;http://www.civicjobs.ca/jobs?id=112718&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, May 12, 2026.&lt;br/&gt;</description><pubDate>Thu, 16 Apr 2026 15:50:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112718</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112718&apos;>http://www.civicjobs.ca/jobs?id=112718</a><br/><br/>Posting expires on Tuesday, May 12, 2026.<br/>",
+        "pubDate": "Thu, 16 Apr 2026 15:50:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Airport Administrative Coordinator - Kelowna International Airport (Kelowna, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 21:09:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112700&apos;>http://www.civicjobs.ca/jobs?id=112700</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112700",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-airport-administrative-coordinator-kelowna-international-airport-kelowna-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Airport Administrative Coordinator - Kelowna International Airport (Kelowna, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Airport Administrative Coordinator - Kelowna International Airport (Kelowna, BC)</title><link>http://www.civicjobs.ca/jobs?id=112700</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112700&apos;&gt;http://www.civicjobs.ca/jobs?id=112700&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, April 28, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 21:09:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112700</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112700&apos;>http://www.civicjobs.ca/jobs?id=112700</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 21:09:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Labourer Trainee Public Works - Utilities - Town of Qualicum Beach (Qualicum Beach, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 17:57:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112673&apos;>http://www.civicjobs.ca/jobs?id=112673</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112673",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-labourer-trainee-public-works-utilities-town-of-qualicum-beach-qualicum-beach-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Labourer Trainee Public Works - Utilities - Town of Qualicum Beach (Qualicum Beach, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Labourer Trainee Public Works - Utilities - Town of Qualicum Beach (Qualicum Beach, BC)</title><link>http://www.civicjobs.ca/jobs?id=112673</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112673&apos;&gt;http://www.civicjobs.ca/jobs?id=112673&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, April 29, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 17:57:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112673</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112673&apos;>http://www.civicjobs.ca/jobs?id=112673</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 17:57:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Labourer Trainee/ Custodian - Town of Qualicum Beach (Qualicum Beach, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 17:53:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112672&apos;>http://www.civicjobs.ca/jobs?id=112672</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112672",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-labourer-trainee-custodian-town-of-qualicum-beach-qualicum-beach-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Labourer Trainee/ Custodian - Town of Qualicum Beach (Qualicum Beach, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Labourer Trainee/ Custodian - Town of Qualicum Beach (Qualicum Beach, BC)</title><link>http://www.civicjobs.ca/jobs?id=112672</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112672&apos;&gt;http://www.civicjobs.ca/jobs?id=112672&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, April 29, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 17:53:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112672</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112672&apos;>http://www.civicjobs.ca/jobs?id=112672</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 17:53:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Labourer Trainee Parks - Town of Qualicum Beach (Qualicum Beach, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 17:24:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112671&apos;>http://www.civicjobs.ca/jobs?id=112671</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112671",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-labourer-trainee-parks-town-of-qualicum-beach-qualicum-beach-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Labourer Trainee Parks - Town of Qualicum Beach (Qualicum Beach, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Labourer Trainee Parks - Town of Qualicum Beach (Qualicum Beach, BC)</title><link>http://www.civicjobs.ca/jobs?id=112671</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112671&apos;&gt;http://www.civicjobs.ca/jobs?id=112671&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, April 29, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 17:24:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112671</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112671&apos;>http://www.civicjobs.ca/jobs?id=112671</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 17:24:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Regional Training Officer - Cariboo Regional District (Williams Lake, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 16:40:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112666&apos;>http://www.civicjobs.ca/jobs?id=112666</a><br/><br/>Posting expires on Tuesday, June 30, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112666",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-regional-training-officer-cariboo-regional-district-williams-lake-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Regional Training Officer - Cariboo Regional District (Williams Lake, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Regional Training Officer - Cariboo Regional District (Williams Lake, BC)</title><link>http://www.civicjobs.ca/jobs?id=112666</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112666&apos;&gt;http://www.civicjobs.ca/jobs?id=112666&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, June 30, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 16:40:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112666</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112666&apos;>http://www.civicjobs.ca/jobs?id=112666</a><br/><br/>Posting expires on Tuesday, June 30, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 16:40:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Aquatic Supervisor - City of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 15 Apr 2026 16:29:08 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112663&apos;>http://www.civicjobs.ca/jobs?id=112663</a><br/><br/>Posting expires on Tuesday, June 30, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112663",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-aquatic-supervisor-city-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Aquatic Supervisor - City of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Aquatic Supervisor - City of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112663</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112663&apos;&gt;http://www.civicjobs.ca/jobs?id=112663&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, June 30, 2026.&lt;br/&gt;</description><pubDate>Wed, 15 Apr 2026 16:29:08 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112663</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112663&apos;>http://www.civicjobs.ca/jobs?id=112663</a><br/><br/>Posting expires on Tuesday, June 30, 2026.<br/>",
+        "pubDate": "Wed, 15 Apr 2026 16:29:08 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Manager, Recreation Services and Facilities - Arenas and Recreation Building Maintenance - City of New Westminster (New Westminster, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 14 Apr 2026 23:08:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112658&apos;>http://www.civicjobs.ca/jobs?id=112658</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112658",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-manager-recreation-services-and-facilities-arenas-and-recreation-building-maintenance-city-of-new-westminster-new-westminster-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 1,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Manager, Recreation Services and Facilities - Arenas and Recreation Building Maintenance - City of New Westminster (New Westminster, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 67,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Manager, Recreation Services and Facilities - Arenas and Recreation Building Maintenance - City of New Westminster (New Westminster, BC)</title><link>http://www.civicjobs.ca/jobs?id=112658</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112658&apos;&gt;http://www.civicjobs.ca/jobs?id=112658&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, April 28, 2026.&lt;br/&gt;</description><pubDate>Tue, 14 Apr 2026 23:08:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112658</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112658&apos;>http://www.civicjobs.ca/jobs?id=112658</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+        "pubDate": "Tue, 14 Apr 2026 23:08:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Training Coordinator - City of Maple Ridge (Maple Ridge, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 14 Apr 2026 15:45:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112632&apos;>http://www.civicjobs.ca/jobs?id=112632</a><br/><br/>Posting expires on Sunday, April 26, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112632",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-training-coordinator-city-of-maple-ridge-maple-ridge-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Training Coordinator - City of Maple Ridge (Maple Ridge, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Training Coordinator - City of Maple Ridge (Maple Ridge, BC)</title><link>http://www.civicjobs.ca/jobs?id=112632</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112632&apos;&gt;http://www.civicjobs.ca/jobs?id=112632&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Sunday, April 26, 2026.&lt;br/&gt;</description><pubDate>Tue, 14 Apr 2026 15:45:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112632</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112632&apos;>http://www.civicjobs.ca/jobs?id=112632</a><br/><br/>Posting expires on Sunday, April 26, 2026.<br/>",
+        "pubDate": "Tue, 14 Apr 2026 15:45:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Arena Maintenance Worker (Casual) - Regional District of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 14 Apr 2026 15:02:34 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112630&apos;>http://www.civicjobs.ca/jobs?id=112630</a><br/><br/>Posting expires on Saturday, May 2, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112630",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-arena-maintenance-worker-casual-regional-district-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Arena Maintenance Worker (Casual) - Regional District of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Arena Maintenance Worker (Casual) - Regional District of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112630</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112630&apos;&gt;http://www.civicjobs.ca/jobs?id=112630&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Saturday, May 2, 2026.&lt;br/&gt;</description><pubDate>Tue, 14 Apr 2026 15:02:34 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112630</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112630&apos;>http://www.civicjobs.ca/jobs?id=112630</a><br/><br/>Posting expires on Saturday, May 2, 2026.<br/>",
+        "pubDate": "Tue, 14 Apr 2026 15:02:34 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Arena Maintenance Worker - Regional District of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 14 Apr 2026 14:55:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112629&apos;>http://www.civicjobs.ca/jobs?id=112629</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112629",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-arena-maintenance-worker-regional-district-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Arena Maintenance Worker - Regional District of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Arena Maintenance Worker - Regional District of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112629</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112629&apos;&gt;http://www.civicjobs.ca/jobs?id=112629&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Tuesday, April 28, 2026.&lt;br/&gt;</description><pubDate>Tue, 14 Apr 2026 14:55:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112629</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112629&apos;>http://www.civicjobs.ca/jobs?id=112629</a><br/><br/>Posting expires on Tuesday, April 28, 2026.<br/>",
+        "pubDate": "Tue, 14 Apr 2026 14:55:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "RCMP - Court Liaison & Exhibit Custodian - City of Vernon (Vernon, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Mon, 13 Apr 2026 16:41:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112598&apos;>http://www.civicjobs.ca/jobs?id=112598</a><br/><br/>Posting expires on Monday, June 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112598",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-rcmp-court-liaison-exhibit-custodian-city-of-vernon-vernon-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - RCMP - Court Liaison & Exhibit Custodian - City of Vernon (Vernon, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>RCMP - Court Liaison &amp; Exhibit Custodian - City of Vernon (Vernon, BC)</title><link>http://www.civicjobs.ca/jobs?id=112598</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112598&apos;&gt;http://www.civicjobs.ca/jobs?id=112598&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Monday, June 29, 2026.&lt;br/&gt;</description><pubDate>Mon, 13 Apr 2026 16:41:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112598</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112598&apos;>http://www.civicjobs.ca/jobs?id=112598</a><br/><br/>Posting expires on Monday, June 29, 2026.<br/>",
+        "pubDate": "Mon, 13 Apr 2026 16:41:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Operations Maintenance Worker (OMW) - City of Courtenay (Courtenay, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 10 Apr 2026 23:32:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112583&apos;>http://www.civicjobs.ca/jobs?id=112583</a><br/><br/>Posting expires on Sunday, May 3, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112583",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-operations-maintenance-worker-omw-city-of-courtenay-courtenay-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Operations Maintenance Worker (OMW) - City of Courtenay (Courtenay, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 61,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Operations Maintenance Worker (OMW) - City of Courtenay (Courtenay, BC)</title><link>http://www.civicjobs.ca/jobs?id=112583</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112583&apos;&gt;http://www.civicjobs.ca/jobs?id=112583&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Sunday, May 3, 2026.&lt;br/&gt;</description><pubDate>Fri, 10 Apr 2026 23:32:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112583</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112583&apos;>http://www.civicjobs.ca/jobs?id=112583</a><br/><br/>Posting expires on Sunday, May 3, 2026.<br/>",
+        "pubDate": "Fri, 10 Apr 2026 23:32:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Urban Forester - City of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 10 Apr 2026 20:08:18 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112568&apos;>http://www.civicjobs.ca/jobs?id=112568</a><br/><br/>Posting expires on Thursday, April 30, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112568",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-urban-forester-city-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Urban Forester - City of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Urban Forester - City of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112568</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112568&apos;&gt;http://www.civicjobs.ca/jobs?id=112568&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, April 30, 2026.&lt;br/&gt;</description><pubDate>Fri, 10 Apr 2026 20:08:18 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112568</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112568&apos;>http://www.civicjobs.ca/jobs?id=112568</a><br/><br/>Posting expires on Thursday, April 30, 2026.<br/>",
+        "pubDate": "Fri, 10 Apr 2026 20:08:18 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Park Liaison Officer - City of New Westminster (New Westminster, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 10 Apr 2026 16:27:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112550&apos;>http://www.civicjobs.ca/jobs?id=112550</a><br/><br/>Posting expires on Sunday, April 26, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112550",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-park-liaison-officer-city-of-new-westminster-new-westminster-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Park Liaison Officer - City of New Westminster (New Westminster, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Park Liaison Officer - City of New Westminster (New Westminster, BC)</title><link>http://www.civicjobs.ca/jobs?id=112550</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112550&apos;&gt;http://www.civicjobs.ca/jobs?id=112550&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Sunday, April 26, 2026.&lt;br/&gt;</description><pubDate>Fri, 10 Apr 2026 16:27:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112550</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112550&apos;>http://www.civicjobs.ca/jobs?id=112550</a><br/><br/>Posting expires on Sunday, April 26, 2026.<br/>",
+        "pubDate": "Fri, 10 Apr 2026 16:27:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Tai Chi/Qi gong Instructor - City of Burnaby (Burnaby, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Thu, 9 Apr 2026 16:12:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112510&apos;>http://www.civicjobs.ca/jobs?id=112510</a><br/><br/>Posting expires on Saturday, May 9, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112510",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-tai-chiqi-gong-instructor-city-of-burnaby-burnaby-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Tai Chi/Qi gong Instructor - City of Burnaby (Burnaby, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Tai Chi/Qi gong Instructor - City of Burnaby (Burnaby, BC)</title><link>http://www.civicjobs.ca/jobs?id=112510</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112510&apos;&gt;http://www.civicjobs.ca/jobs?id=112510&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Saturday, May 9, 2026.&lt;br/&gt;</description><pubDate>Thu, 9 Apr 2026 16:12:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112510</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112510&apos;>http://www.civicjobs.ca/jobs?id=112510</a><br/><br/>Posting expires on Saturday, May 9, 2026.<br/>",
+        "pubDate": "Thu, 9 Apr 2026 16:12:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Bylaw Enforcement Officer - Parking Patroller (2) - City of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Wed, 8 Apr 2026 21:14:59 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112494&apos;>http://www.civicjobs.ca/jobs?id=112494</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112494",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-bylaw-enforcement-officer-parking-patroller-2-city-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Bylaw Enforcement Officer - Parking Patroller (2) - City of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Bylaw Enforcement Officer - Parking Patroller (2) - City of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112494</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112494&apos;&gt;http://www.civicjobs.ca/jobs?id=112494&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Wednesday, April 29, 2026.&lt;br/&gt;</description><pubDate>Wed, 8 Apr 2026 21:14:59 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112494</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112494&apos;>http://www.civicjobs.ca/jobs?id=112494</a><br/><br/>Posting expires on Wednesday, April 29, 2026.<br/>",
+        "pubDate": "Wed, 8 Apr 2026 21:14:59 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Facilities Maintenance Worker 1- 3 (Auxiliary) (2025-34) - City of Mission (Mission, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 7 Apr 2026 18:10:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112438&apos;>http://www.civicjobs.ca/jobs?id=112438</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112438",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-facilities-maintenance-worker-1-3-auxiliary-2025-34-city-of-mission-mission-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Facilities Maintenance Worker 1- 3 (Auxiliary) (2025-34) - City of Mission (Mission, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Facilities Maintenance Worker 1- 3 (Auxiliary) (2025-34) - City of Mission (Mission, BC)</title><link>http://www.civicjobs.ca/jobs?id=112438</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112438&apos;&gt;http://www.civicjobs.ca/jobs?id=112438&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, May 7, 2026.&lt;br/&gt;</description><pubDate>Tue, 7 Apr 2026 18:10:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112438</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112438&apos;>http://www.civicjobs.ca/jobs?id=112438</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+        "pubDate": "Tue, 7 Apr 2026 18:10:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Personal Trainer and Weight Room Attendant - Township of Esquimalt (Esquimalt, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Tue, 7 Apr 2026 16:02:00 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112418&apos;>http://www.civicjobs.ca/jobs?id=112418</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112418",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-personal-trainer-and-weight-room-attendant-township-of-esquimalt-esquimalt-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Personal Trainer and Weight Room Attendant - Township of Esquimalt (Esquimalt, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 46,
+        "priority": "baja"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Personal Trainer and Weight Room Attendant - Township of Esquimalt (Esquimalt, BC)</title><link>http://www.civicjobs.ca/jobs?id=112418</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112418&apos;&gt;http://www.civicjobs.ca/jobs?id=112418&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Thursday, May 7, 2026.&lt;br/&gt;</description><pubDate>Tue, 7 Apr 2026 16:02:00 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112418</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112418&apos;>http://www.civicjobs.ca/jobs?id=112418</a><br/><br/>Posting expires on Thursday, May 7, 2026.<br/>",
+        "pubDate": "Tue, 7 Apr 2026 16:02:00 GMT"
+      },
+      "source_priority": 95
+    },
+    {
+      "source_id": "civicjobs",
+      "source_name": "CivicJobs.ca",
+      "source_type": "municipal-jobs",
+      "organization": "CivicJobs.ca",
+      "title": "Financial Analyst - City of Nanaimo (Nanaimo, BC)",
+      "location": "",
+      "remote_mode": "",
+      "posted_at": "Fri, 27 Mar 2026 17:18:14 GMT",
+      "compensation": "",
+      "description_snippet": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112215&apos;>http://www.civicjobs.ca/jobs?id=112215</a><br/><br/>Posting expires on Friday, May 29, 2026.<br/>",
+      "apply_url": "http://www.civicjobs.ca/jobs?id=112215",
+      "source_url": "https://www.civicjobs.ca/rss/province.php?id=BC",
+      "capture_method": "rss-xml",
+      "captured_at": "2026-04-26T01:58:23.838Z",
+      "normalized": {
+        "alias": "civicjobsca-financial-analyst-city-of-nanaimo-nanaimo-bc-2026-04-26",
+        "region": "British Columbia",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 1,
+          "location_fit": 0.3,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "CivicJobs.ca - Financial Analyst - City of Nanaimo (Nanaimo, BC)",
+        "open_questions": "Validar compensacion; Confirmar modalidad"
+      },
+      "score": {
+        "total": 61,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "rss_item": "<title>Financial Analyst - City of Nanaimo (Nanaimo, BC)</title><link>http://www.civicjobs.ca/jobs?id=112215</link><description>See: &lt;a href=&apos;http://www.civicjobs.ca/jobs?id=112215&apos;&gt;http://www.civicjobs.ca/jobs?id=112215&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Posting expires on Friday, May 29, 2026.&lt;br/&gt;</description><pubDate>Fri, 27 Mar 2026 17:18:14 GMT </pubDate><source url='http://www.civicjobs.ca/rss/province'>CivicJobs.ca | by Province</source><guid>http://www.civicjobs.ca/jobs?id=112215</guid>",
+        "category": "",
+        "description": "See: <a href=&apos;http://www.civicjobs.ca/jobs?id=112215&apos;>http://www.civicjobs.ca/jobs?id=112215</a><br/><br/>Posting expires on Friday, May 29, 2026.<br/>",
+        "pubDate": "Fri, 27 Mar 2026 17:18:14 GMT"
+      },
+      "source_priority": 95
+    }
+  ],
+  "scored_at": "2026-04-26T01:58:23.845Z"
+}

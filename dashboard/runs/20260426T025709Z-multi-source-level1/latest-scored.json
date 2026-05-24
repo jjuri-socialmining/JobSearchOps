@@ -1,0 +1,1263 @@
+{
+  "generated_at": "2026-04-26T02:57:09.700Z",
+  "source_count": 4,
+  "source": "multi-source",
+  "keywords_used": [
+    "AI"
+  ],
+  "exclusions_used": {
+    "excluded_title_keywords": [
+      "assistant",
+      "clerk",
+      "legal counsel",
+      "paralegal",
+      "probation officer",
+      "child protection worker",
+      "developer",
+      "engineer",
+      "technician",
+      "property transfer tax",
+      "sales manager",
+      "local manager",
+      "marking",
+      "journalism",
+      "Manager of Criminal Operations",
+      "Financial Analyst",
+      "Tax Auditor"
+    ],
+    "excluded_exact_titles": [
+      "BAND 4 - Portfolio Manager, Short Term Financing",
+      "ADMN O 21R - Facilities Project Manager - Lateral Only",
+      "BAND 3 - Senior Manager, Finance and Administration - Lateral Only",
+      "BAND 3 - Construction Manager, Grading - Lateral Only"
+    ],
+    "excluded_organizations": [],
+    "excluded_post_keywords": [
+      "journalism",
+      "Manager of Criminal Operations",
+      "Financial Analyst",
+      "Tax Auditor"
+    ],
+    "excluded_work_options": [
+      "on-site",
+      "onsite",
+      "in-office",
+      "100% on-site",
+      "100% onsite",
+      "full-time office"
+    ]
+  },
+  "runtime_filters": {
+    "max_posted_days": 7
+  },
+  "source_runs": [
+    {
+      "source_id": "prompt-ca-indeed-com",
+      "source_name": "Job Boards - https://ca.indeed.com",
+      "source_display_name": "Indeed",
+      "source_access_url": "https://ca.indeed.com",
+      "source_navigation_url": "https://ca.indeed.com/jobs?q=AI&l=British%20Columbia",
+      "prompt_group_label": "Job Boards",
+      "prompt_group_order": 1,
+      "prompt_url_order": 1,
+      "adapter": "generic-careers-page",
+      "capture_method": "html-link-discovery",
+      "configured": true,
+      "status": "ERROR",
+      "status_note": "HTTP 403 for https://ca.indeed.com",
+      "job_count_raw": 0,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "prompt-www-linkedin-com-jobs",
+      "source_name": "Job Boards - https://www.linkedin.com/jobs/",
+      "source_display_name": "LinkedIn Jobs",
+      "source_access_url": "https://www.linkedin.com/jobs/",
+      "source_navigation_url": "https://www.linkedin.com/jobs/search/?keywords=AI&location=British%20Columbia%2C%20Canada",
+      "prompt_group_label": "Job Boards",
+      "prompt_group_order": 1,
+      "prompt_url_order": 2,
+      "adapter": "generic-careers-page",
+      "capture_method": "html-link-discovery",
+      "configured": true,
+      "status": "CAPTURED",
+      "status_note": "configured page_url html discovery",
+      "job_count_raw": 20,
+      "job_count_after_filters": 2,
+      "filtered_out_count": 18,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "prompt-www-glassdoor-ca-job-index-htm",
+      "source_name": "Job Boards - https://www.glassdoor.ca/Job/index.htm",
+      "source_display_name": "Glassdoor",
+      "source_access_url": "https://www.glassdoor.ca/Job/index.htm",
+      "source_navigation_url": "https://www.glassdoor.ca/Job/jobs.htm?sc.keyword=AI&locT=C&locId=1108",
+      "prompt_group_label": "Job Boards",
+      "prompt_group_order": 1,
+      "prompt_url_order": 3,
+      "adapter": "generic-careers-page",
+      "capture_method": "html-link-discovery",
+      "configured": true,
+      "status": "NO_RESULTS",
+      "status_note": "configured page_url html discovery",
+      "job_count_raw": 20,
+      "job_count_after_filters": 0,
+      "filtered_out_count": 20,
+      "llm_tokens_total": null
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_display_name": "Monster",
+      "source_access_url": "https://www.monster.ca/",
+      "source_navigation_url": "https://www.monster.ca/jobs/search/?q=AI&where=British-Columbia",
+      "prompt_group_label": "Job Boards",
+      "prompt_group_order": 1,
+      "prompt_url_order": 4,
+      "adapter": "generic-careers-page",
+      "capture_method": "html-link-discovery",
+      "configured": true,
+      "status": "CAPTURED",
+      "status_note": "configured page_url html discovery",
+      "job_count_raw": 20,
+      "job_count_after_filters": 20,
+      "filtered_out_count": 0,
+      "llm_tokens_total": null
+    }
+  ],
+  "job_count": 22,
+  "errors": [
+    {
+      "source_id": "prompt-ca-indeed-com",
+      "error": "HTTP 403 for https://ca.indeed.com"
+    }
+  ],
+  "jobs": [
+    {
+      "source_id": "prompt-www-linkedin-com-jobs",
+      "source_name": "Job Boards - https://www.linkedin.com/jobs/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.linkedin.com/jobs/",
+      "title": "Skip to main content",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "64% of job seekers get hired through a referral. Use LinkedIn Jobs to boost your chances of getting hired through people you know.",
+      "apply_url": "https://www.linkedin.com/jobs/#main-content",
+      "source_url": "https://www.linkedin.com/jobs/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:08.013Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwlinkedincomjobs-skip-to-main-content-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.linkedin.com/jobs/ - Skip to main content",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "LinkedIn Job Search: Find US Jobs, Internships, Jobs Near Me",
+        "page_url": "https://www.linkedin.com/jobs/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-linkedin-com-jobs",
+      "source_name": "Job Boards - https://www.linkedin.com/jobs/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.linkedin.com/jobs/",
+      "title": "Retail Associate",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "64% of job seekers get hired through a referral. Use LinkedIn Jobs to boost your chances of getting hired through people you know.",
+      "apply_url": "https://www.linkedin.com/jobs/retail-associate-jobs?trk=homepage-jobseeker_suggested-search",
+      "source_url": "https://www.linkedin.com/jobs/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:08.014Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwlinkedincomjobs-retail-associate-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.linkedin.com/jobs/ - Retail Associate",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "LinkedIn Job Search: Find US Jobs, Internships, Jobs Near Me",
+        "page_url": "https://www.linkedin.com/jobs/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Find Jobs",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-find-jobs-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Find Jobs",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Career Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-career-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Career Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Related Career Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/#related-career-advice",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-related-career-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Related Career Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "update your resume",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/resume/how-to-update-your-resume",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-update-your-resume-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - update your resume",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Recruiter",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/resume/templates/recruiter",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-recruiter-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Recruiter",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "The 14 Worst Resume Mistakes to Avoid and How to Fix Them",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/resume-mistakes-to-avoid",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-the-14-worst-resume-mistakes-to-avoid-and-how-to-fix-them-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - The 14 Worst Resume Mistakes to Avoid and How to Fix Them",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "How to Write a Resume (Examples, Template, & Tips)",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/how-to-write-a-resume",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-how-to-write-a-resume-examples-template-tips-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - How to Write a Resume (Examples, Template, & Tips)",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "The Credibility Gap: 13% of Job Seekers Admit to Lying on Their Resumes",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/research/credibility-gap",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-the-credibility-gap-13-of-job-seekers-admit-to-lying-on-their-resumes-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - The Credibility Gap: 13% of Job Seekers Admit to Lying on Their Resumes",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "The New Resume Taboo: Why 1 in 3 Workers Would Hide a Layoff",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/research/new-resume-taboo",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-the-new-resume-taboo-why-1-in-3-workers-would-hide-a-layoff-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - The New Resume Taboo: Why 1 in 3 Workers Would Hide a Layoff",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "More Pages, Less Confidence: The State of Resumes in 2026",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/research/state-of-the-resume-2026",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-more-pages-less-confidence-the-state-of-resumes-in-2026-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - More Pages, Less Confidence: The State of Resumes in 2026",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "12 Best Fonts for Resumes in 2025 (With Formatting Tips)",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/best-fonts-for-resumes",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-12-best-fonts-for-resumes-in-2025-with-formatting-tips-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - 12 Best Fonts for Resumes in 2025 (With Formatting Tips)",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Resume Skills Section Guide: Top Skills to Include & Formatting Tips",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/resume-skills-section",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-resume-skills-section-guide-top-skills-to-include-formatting-tips-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Resume Skills Section Guide: Top Skills to Include & Formatting Tips",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "How to Organize Resume Sections: 5 Must-Have Sections & Tips",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/resume-sections",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-how-to-organize-resume-sections-5-must-have-sections-tips-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - How to Organize Resume Sections: 5 Must-Have Sections & Tips",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "Why You Should Avoid Lying on Resumes",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.com/career-advice/resume/why-you-shouldnt-lie-on-your-resume",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-why-you-should-avoid-lying-on-resumes-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - Why You Should Avoid Lying on Resumes",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "View All Articles",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-view-all-articles-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - View All Articles",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "All Job Search Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/job-search",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-all-job-search-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - All Job Search Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "All Cover Letter Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/cover-letters",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-all-cover-letter-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - All Cover Letter Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "All Career Path Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/career-paths",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-all-career-path-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - All Career Path Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "All Interview Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/interviewing",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-all-interview-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - All Interview Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    },
+    {
+      "source_id": "prompt-www-monster-ca",
+      "source_name": "Job Boards - https://www.monster.ca/",
+      "source_type": "prompt-registry-page",
+      "organization": "Job Boards - https://www.monster.ca/",
+      "title": "All Career Development Advice",
+      "location": "Canada",
+      "remote_mode": "",
+      "posted_at": "",
+      "compensation": "",
+      "description_snippet": "Create a standout resume for your next job with Monster&rsquo;s free resume builder. Recruiter-approved designs, AI-powered content suggestion, and step-by-step guidance.",
+      "apply_url": "https://www.monster.ca/career-advice/career-development",
+      "source_url": "https://www.monster.ca/",
+      "capture_method": "html-link-discovery",
+      "captured_at": "2026-04-26T02:57:09.699Z",
+      "normalized": {
+        "alias": "job-boards-httpswwwmonsterca-all-career-development-advice-2026-04-26",
+        "region": "Canada",
+        "tags": []
+      },
+      "enrichment": {
+        "industry": "",
+        "signals": {
+          "title_match": 0.5,
+          "location_fit": 1,
+          "compensation_signal": 0.2,
+          "source_quality": 0.4,
+          "seniority_fit": 0.6,
+          "clarity_of_scope": 0.8
+        },
+        "applicants": "",
+        "summary": "Job Boards - https://www.monster.ca/ - All Career Development Advice",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia"
+      },
+      "score": {
+        "total": 60,
+        "priority": "media"
+      },
+      "decision": {
+        "status": "REVIEW",
+        "label": "REVISAR",
+        "why_now": "Hay senal inicial, pero faltan datos criticos antes de decidir.",
+        "open_questions": "Validar compensacion; Confirmar modalidad; Confirmar vigencia; Validar compensacion real; Validar ubicacion real"
+      },
+      "raw": {
+        "discovery_type": "html-link",
+        "page_title": "100% Free Resume Builder | Monster.com",
+        "page_url": "https://www.monster.ca/"
+      },
+      "source_priority": 60
+    }
+  ],
+  "scored_at": "2026-04-26T02:57:09.709Z"
+}
