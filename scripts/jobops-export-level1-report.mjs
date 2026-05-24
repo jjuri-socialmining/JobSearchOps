@@ -193,7 +193,7 @@ function triageSortValue(job) {
 }
 
 function companyNoteLink(organization) {
-  const clean = collapseWhitespace(organization).replace(/[\[\]]/g, "");
+  const clean = collapseWhitespace(organization).replace(/[[\]]/g, "");
   return `[[~ ${clean}]]`;
 }
 
