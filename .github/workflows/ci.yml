@@ -63,16 +63,14 @@ jobs:
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -f tmp/jobops-pipeline/opportunity-inventory.json ]; then
-            node scripts/jobops-export-dashboard.mjs
-          else
-            echo "No inventory — copying placeholder dashboard"
+          if [ -f tmp/jobops-pipeline/dashboard.html ]; then
+            cp tmp/jobops-pipeline/dashboard.html docs/index.html
           fi
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./tmp/jobops-pipeline
+          publish_dir: ./docs
           publish_branch: gh-pages
           destination_dir: dashboard
 
