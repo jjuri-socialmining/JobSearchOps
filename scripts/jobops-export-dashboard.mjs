@@ -610,6 +610,11 @@ function confirmModal(){
   const reason=document.getElementById("modal-input").value.trim();
   const existing=getAction(_mJob.apply_url)||{};
   setAction(_mJob.apply_url,{...existing,action:_mType,reason,timestamp:new Date().toISOString(),title:_mJob.title,org:_mJob.organization,source_id:_mJob.source_id,rules:existing.rules||[]});
+  if(_mType==='discard'){
+    fetch('http://localhost:3001/dismiss',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({job_id:_mJob.apply_url,title:_mJob.title,company:_mJob.organization,url:_mJob.apply_url,score:_mJob.score,reason}),
+    }).catch(()=>{});
+  }
   ACTIONS=loadActions();
   updateStats();
   closeModal();

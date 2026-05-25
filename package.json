@@ -16,7 +16,8 @@
     "jobops:qc": "node scripts/jobops-qc-gate.mjs",
     "jobops:qc:approve": "node scripts/jobops-qc-gate.mjs --approve",
     "jobops:qc:report": "node scripts/jobops-qc-gate.mjs --report-only",
-    "jobops:dashboard": "node scripts/jobops-export-dashboard.mjs"
+    "jobops:dashboard": "node scripts/jobops-export-dashboard.mjs",
+    "jobops:history-server": "node scripts/jobops-history-server.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
